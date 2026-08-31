@@ -1,0 +1,403 @@
+\section{Clean Release and Overcompression}
+
+The contrast-concentration theorem establishes an exact finite
+mechanism by which common-mode dominance can increase relative to
+centered relational contrast.
+
+It does not by itself determine an optimal loading regime.
+
+This section introduces two internal concepts motivated by that
+theorem:
+
+\[
+\text{clean release}
+\]
+and
+\[
+\text{overcompression}.
+\]
+
+Neither concept is part of the theorem proved in Sections 4--7.
+
+\subsection{A declared output register}
+
+Let
+\[
+\rho:X\longrightarrow H
+\]
+be a declared finite real-valued output register, with
+\[
+H\subseteq\mathbb R^n.
+\]
+
+For
+\[
+h=\rho(x),
+\]
+write the orthogonal decomposition
+\[
+h
+=
+P_0h+P_\perp h.
+\]
+
+The common component is
+\[
+P_0h
+=
+\overline h\,\one_n,
+\]
+while the centered component is
+\[
+P_\perp h
+=
+h-\overline h\,\one_n.
+\]
+
+Define
+\[
+C(h)
+=
+\|P_0h\|_2
+\]
+and
+\[
+R(h)
+=
+\|P_\perp h\|_2.
+\]
+
+A strong registered output need not maximize either quantity
+separately.
+
+A pure common-mode output may have large total magnitude while
+carrying no internal coordinate contrast.
+
+Conversely, a highly contrasted state need not be organized into a
+robust outward registration.
+
+\subsection{Coherence and individuation are different}
+
+For the present internal mechanics, we distinguish two descriptive
+properties.
+
+\begin{description}
+
+\item[Coherent registration.]
+Multiple admissible contributions reinforce a common registered
+output rather than cancelling one another.
+
+\item[Registered individuation.]
+The declared output retains enough centered distinction to resolve
+the relational alternatives relevant to that registration.
+
+\end{description}
+
+These properties need not vary together.
+
+Increasing relational organization may initially increase coherent
+output without destroying registered individuation.
+
+At stronger loading, the same process may continue increasing
+common-mode dominance while suppressing the contrast needed to
+distinguish alternatives.
+
+This distinction motivates the clean-release boundary.
+
+\subsection{Clean release}
+
+\begin{definition}[Clean release]
+A clean-release regime is a loading regime in which increasing
+relational organization improves the coherence, robustness, or
+magnitude of a declared outward registration while preserving the
+independent contrast required by that output.
+\end{definition}
+
+The definition is projection-relative.
+
+It does not assert a universal scalar measure of release quality.
+
+A quantitative clean-release criterion would require at least:
+
+\begin{enumerate}[label=(\roman*)]
+
+\item a declared loading parameter;
+
+\item a declared outward registration;
+
+\item a measure of coherent registered output;
+
+\item a measure of surviving independent contrast.
+
+\end{enumerate}
+
+No unique combination of these quantities is selected in this paper.
+
+\subsection{Why maximum aggregate need not be maximum useful output}
+
+Suppose a loading family is indexed by
+\[
+\lambda.
+\]
+
+Let
+\[
+C(\lambda)
+\]
+measure coherent outward registration and let
+\[
+D(\lambda)
+\]
+measure the independent contrast retained by that registration.
+
+A useful output statistic
+\[
+U(\lambda)
+\]
+may depend positively on both.
+
+For example, schematically,
+\[
+U(\lambda)
+=
+F(C(\lambda),D(\lambda)),
+\]
+where
+\[
+\frac{\partial F}{\partial C}>0,
+\qquad
+\frac{\partial F}{\partial D}>0.
+\]
+
+If
+\[
+C(\lambda)
+\]
+continues increasing while
+\[
+D(\lambda)
+\]
+begins decreasing, then maximum aggregate strength need not coincide
+with maximum useful registered output.
+
+An interior optimum may occur.
+
+This is not guaranteed by the finite theorem.
+
+It is a structural possibility.
+
+\subsection{Overcompression}
+
+\begin{definition}[Overcompression]
+Overcompression begins when additional relational loading that
+previously improved coherent registration instead reduces the
+independent contrast required by the surviving output mode.
+\end{definition}
+
+The relevant transition is therefore not simply
+\[
+\text{large norm}
+\longrightarrow
+\text{larger norm}.
+\]
+
+It is
+\[
+\text{organization that preserves distinction}
+\]
+to
+\[
+\text{organization that suppresses required distinction}.
+\]
+
+Overcompression is thus defined by a change in the role of added
+constraint or loading.
+
+\subsection{Normalized quadratic model}
+
+The normalized Thalean quadratic gives a simple limiting example.
+
+For
+\[
+\widehat Q=\frac{Q}{98},
+\]
+the common component is fixed:
+\[
+P_0\widehat Q^{\,k}x
+=
+P_0x.
+\]
+
+The centered component contracts:
+\[
+R(\widehat Q^{\,k}x)
+\le
+\left(\frac{9}{49}\right)^k
+R(x).
+\]
+
+Therefore indefinite normalized \(\widehat Q\)-iteration drives every
+centered component asymptotically toward zero.
+
+If a useful outward registration requires nonzero centered structure,
+then sufficiently deep \(\widehat Q\)-iteration necessarily lies on
+the overcompressed side of that requirement.
+
+This conclusion is conditional on the declared output requiring such
+contrast.
+
+\subsection{Clean release as a boundary regime}
+
+The internal picture suggested by the theorem is therefore:
+
+\[
+\text{high relational freedom}
+\]
+\[
+\downarrow
+\]
+\[
+\text{increasing organization}
+\]
+\[
+\downarrow
+\]
+\[
+\text{coherent registration improves}
+\]
+\[
+\downarrow
+\]
+\[
+\text{clean-release regime}
+\]
+\[
+\downarrow
+\]
+\[
+\text{registered contrast begins to collapse}
+\]
+\[
+\downarrow
+\]
+\[
+\text{overcompression}
+\]
+\[
+\downarrow
+\]
+\[
+\text{contrast saturation}.
+\]
+
+This sequence is an internal hypothesis.
+
+Only the contrast-concentration portion has been proved for the
+normalized quadratic.
+
+\subsection{A possible diagnostic}
+
+For a declared register with
+\[
+C(h)\neq0,
+\]
+define the relative contrast ratio
+\[
+\rho(h)
+=
+\frac{R(h)}{C(h)}.
+\]
+
+A clean-release regime may be sought where:
+
+\[
+C(h)
+\]
+is large or increasing,
+
+while
+\[
+\rho(h)
+\]
+remains above the minimum required for the declared output.
+
+Overcompression begins when additional loading causes
+\[
+\rho(h)
+\]
+to fall below that functional regime.
+
+This is a diagnostic proposal.
+
+No universal critical value of
+\[
+\rho
+\]
+is asserted.
+
+\subsection{Relation to projection-relative saturation}
+
+Clean release and saturation are not synonyms.
+
+Clean release concerns the useful outward registration before
+individuation is lost.
+
+Saturation concerns the regime in which additional complete
+distinction no longer produces corresponding independently registered
+distinction.
+
+Thus the conjectural ordering is
+
+\[
+\text{clean release}
+\quad\text{before}\quad
+\text{relational saturation}.
+\]
+
+Likewise, overcompression is the transition region in which added
+loading begins to destroy the contrast needed for clean release.
+
+\subsection{No physical promotion}
+
+The terms in this section are internal relational-mechanics terms.
+
+They are not identified here with:
+
+\begin{itemize}
+
+\item sonoluminescence emission;
+
+\item hydrodynamic collapse;
+
+\item gravitational collapse;
+
+\item black-hole formation;
+
+\item Hawking radiation;
+
+\item plasma coherence;
+
+\item or any physical emission mechanism.
+
+\end{itemize}
+
+Those would require separate empirical and physical crosswalks.
+
+\subsection{Boundary}
+
+The exact theorem establishes:
+\[
+\text{common-mode concentration}
++
+\text{centered contraction}.
+\]
+
+The present section conjectures that a native loading process may
+contain an intermediate regime in which coherent registration is
+enhanced before contrast saturation dominates.
+
+That possible interior regime is called clean release.
+
+The onset of contrast-destroying loading is called overcompression.
+
+Neither is promoted to theorem in this paper.

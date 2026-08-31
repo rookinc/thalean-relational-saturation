@@ -1,0 +1,289 @@
+\section{Three Finite Summation Laws}
+
+The established finite mechanics contains several exact additive or
+accumulative structures. Together they support a general architectural
+principle:
+
+\begin{quote}
+Global relational quantities may arise through lawful sums of finite
+local or compositional contributions.
+\end{quote}
+
+The examples below act on different mathematical objects. They are
+not identified with one another.
+
+\subsection{Incidence accumulation}
+
+Let
+\[
+x\in\mathbb R^{15}
+\]
+be a sector coefficient vector.
+
+The transport-induced sector-edge incidence matrix gives
+\[
+x
+\longmapsto
+M^{\mathsf T}x
+\longmapsto
+MM^{\mathsf T}x
+=
+Qx.
+\]
+
+The intermediate vector
+\[
+M^{\mathsf T}x\in\mathbb R^{30}
+\]
+assigns to each core edge the sum of the sector coefficients incident
+through the transport-induced sector system.
+
+Applying \(M\) returns those accumulated edge values to the
+fifteen-sector register.
+
+Thus
+\[
+Q=MM^{\mathsf T}
+\]
+is an exact finite local-to-global-to-local incidence sum.
+
+Because
+\[
+Q
+=
+14D_0+9D_1+5D_2+4D_3,
+\]
+the component at a sector basepoint \(v\) is
+\[
+(Qx)_v
+=
+14x_v
++
+9\sum_{d(v,u)=1}x_u
++
+5\sum_{d(v,u)=2}x_u
++
+4\sum_{d(v,u)=3}x_u.
+\]
+
+The coefficients
+\[
+14,\quad9,\quad5,\quad4
+\]
+are exact sector-overlap multiplicities.
+
+They are not fitted long-range weights.
+
+\subsection{Balanced incidence and common aggregation}
+
+Every row of \(M\) has weight \(14\), and every column has weight
+\(7\). Therefore
+\[
+M\one_{30}
+=
+14\one_{15}
+\]
+and
+\[
+M^{\mathsf T}\one_{15}
+=
+7\one_{30}.
+\]
+
+Consequently,
+\[
+Q\one_{15}
+=
+98\one_{15}.
+\]
+
+The common aggregate is therefore already determined by the balanced
+finite incidence structure:
+\[
+98=14\cdot7.
+\]
+
+This is the common mode isolated by the contrast-concentration
+theorem.
+
+\subsection{Binary regional composition}
+
+The twelve-section closure construction contains a binary edge
+cochain
+\[
+\delta
+\]
+and triangle charge
+\[
+\omega
+\]
+satisfying
+\[
+d\delta=\omega.
+\]
+
+For any declared mod-two region \(R\) assembled from native
+triangles, interior edges occur twice and cancel. Hence
+\[
+\bigoplus_{\tau\subset R}\omega(\tau)
+=
+\bigoplus_{e\subset\partial R}\delta(e).
+\]
+
+This is a finite cochain identity.
+
+It expresses a global regional receipt as a sum of boundary
+contributions.
+
+No continuous differential geometry is required.
+
+\subsection{Integer regional composition}
+
+The same binary closure class admits certified integer parents.
+
+Let
+\[
+\eta
+\]
+denote either admitted parent and define
+\[
+\Omega=d\eta.
+\]
+
+For an oriented finite triangle region \(R\),
+\[
+\sum_{\tau\subset R}\Omega(\tau)
+=
+\sum_{e\subset\partial R}\eta(e).
+\]
+
+Interior oriented edge contributions cancel.
+
+Reduction modulo two recovers the binary law:
+\[
+\Omega\bmod2=\omega.
+\]
+
+Thus the integer regional sum contains signed additive information
+that is absent from the binary reduction.
+
+The binary and integer laws are related by an explicit reduction map,
+but they are not the same mathematical object.
+
+\subsection{Registered-history winding}
+
+The certified registered-history construction supplies a third form
+of finite accumulation.
+
+Thalean time is
+\[
+\tauT(\gamma)
+=
+\operatorname{wind}_{r_1}(\gamma),
+\]
+where \(r_1\) is the unique \(G_{30}\)-visible primitive
+registered-history cycle species.
+
+For composable registered histories,
+\[
+\tauT(\gamma_2\circ\gamma_1)
+=
+\tauT(\gamma_2)
++
+\tauT(\gamma_1).
+\]
+
+Under reversal,
+\[
+\tauT(\gamma^{-1})
+=
+-\tauT(\gamma).
+\]
+
+This is an additive history coordinate.
+
+It is not an incidence sum on \(G_{15}\), and it is not the regional
+integer charge on the twelve-section closure complex.
+
+\subsection{Three domains of summation}
+
+The three exact structures may therefore be summarized as
+
+\[
+x
+\longmapsto
+Qx
+\]
+on the sector register,
+
+\[
+\delta
+\longmapsto
+d\delta=\omega
+\]
+on the finite closure complex,
+
+and
+
+\[
+\gamma
+\longmapsto
+\tauT(\gamma)
+\]
+on registered-history cycles.
+
+Their common feature is lawful finite accumulation.
+
+Their domains, codomains, coefficient systems, and provenance are
+different.
+
+No theorem in this paper collapses them into a universal sum.
+
+\subsection{QR long range as accumulated local contribution}
+
+The finite examples motivate the following internal architectural
+principle:
+
+\begin{quote}
+QR long-range structure is sought as the accumulated result of
+admissible finite contributions, not as an independently inserted
+long-range selector.
+\end{quote}
+
+This principle does not imply that every locally admissible
+contribution participates in the global sum.
+
+The summation domain must itself be selected by the relevant
+compatibility law.
+
+Schematically,
+\[
+\text{local contribution}
+\longrightarrow
+\text{global compatibility}
+\longrightarrow
+\text{admitted summation domain}
+\longrightarrow
+\text{registered aggregate}.
+\]
+
+The unresolved inter-face transport problem discussed in the next
+section lies precisely at the global-compatibility step.
+
+\subsection{Boundary}
+
+The exact theorem-side content of this section is limited to the
+three established finite sums.
+
+The broader claim that these structures are manifestations of one
+physical long-range law is not made.
+
+In particular,
+\[
+Qx,
+\qquad
+\sum\Omega,
+\qquad
+\tauT
+\]
+must remain distinct unless an explicit crosswalk is proved.

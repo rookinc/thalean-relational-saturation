@@ -1,0 +1,597 @@
+\section{Discussion}
+
+\subsection{The theorem in one sentence}
+
+The central result of Paper 14 is:
+
+\begin{quote}
+The normalized Thalean quadratic preserves the common sector mode,
+contracts every centered sector mode, remains invertible at every
+finite iterate, and converges to the rank-one common-mode projection.
+\end{quote}
+
+This gives an exact finite example of
+
+\[
+\text{strong aggregate}
+\]
+together with
+\[
+\text{weak individuation}.
+\]
+
+The phrase is not metaphorical at the theorem level.
+
+It refers to a precise spectral separation.
+
+\subsection{Common mode and centered contrast}
+
+The normalized operator is
+
+\[
+\widehat Q
+=
+\frac{1}{98}Q.
+\]
+
+Its common-mode eigenvalue is
+
+\[
+1.
+\]
+
+Its centered eigenvalues are
+
+\[
+\frac{9}{49},
+\qquad
+\frac{3}{98},
+\qquad
+\frac{1}{49}.
+\]
+
+Hence for every sector state \(x\),
+
+\[
+\widehat Q^{\,k}x
+=
+P_0x
++
+\widehat Q^{\,k}P_\perp x,
+\]
+
+with
+
+\[
+\left\|
+\widehat Q^{\,k}P_\perp x
+\right\|_2
+\le
+\left(\frac{9}{49}\right)^k
+\|P_\perp x\|_2.
+\]
+
+The common component persists.
+
+The centered component becomes exponentially small.
+
+\subsection{No transfer into the common mode}
+
+It is important not to misread this result.
+
+The common and centered subspaces are invariant under \(Q\).
+
+Therefore the theorem does not describe centered amplitude being
+converted into common-mode amplitude.
+
+If
+
+\[
+P_0x=0,
+\]
+
+then
+
+\[
+P_0\widehat Q^{\,k}x=0
+\]
+
+for every \(k\).
+
+A purely centered input remains centered and contracts toward zero.
+
+Likewise, a common component that is initially present remains
+unchanged under the normalized operator.
+
+The concentration theorem is therefore a statement about differential
+spectral persistence, not cross-eigenspace transfer.
+
+\subsection{Why normalization is useful}
+
+The unnormalized quadratic satisfies
+
+\[
+C(Q^kx)
+=
+98^kC(x)
+\]
+
+and
+
+\[
+R(Q^kx)
+\le
+18^kR(x).
+\]
+
+Both components can therefore grow in absolute magnitude.
+
+Nevertheless,
+
+\[
+\frac{R(Q^kx)}{C(Q^kx)}
+\le
+\left(\frac{9}{49}\right)^k
+\frac{R(x)}{C(x)}
+\]
+
+whenever \(C(x)\neq0\).
+
+Thus the contrast-concentration phenomenon is already present under
+raw \(Q\)-iteration.
+
+Normalization by \(98\) simply removes the common exponential scale
+and exposes the relative contraction directly.
+
+This is why the natural saturation variable is not raw magnitude.
+
+It is relative contrast.
+
+\subsection{Invertible stages and a noninvertible limit}
+
+A second important feature is
+
+\[
+\det(\widehat Q)\neq0.
+\]
+
+Hence
+
+\[
+\widehat Q^{\,k}
+\]
+
+is invertible for every finite \(k\).
+
+But
+
+\[
+\widehat Q^{\,k}
+\longrightarrow
+P_0,
+\]
+
+and
+
+\[
+\operatorname{rank}(P_0)=1.
+\]
+
+Thus Paper 14 exhibits a sequence of invertible finite-dimensional
+operators converging to a noninvertible operator.
+
+There is no contradiction.
+
+The inverse becomes increasingly sensitive on the contracting
+centered directions.
+
+In exact arithmetic, finite-stage distinction remains recoverable.
+
+At finite resolution, the same distinction may become effectively
+invisible.
+
+\subsection{Exact and effective degeneracy}
+
+This suggests a useful distinction.
+
+\begin{description}
+
+\item[Exact projection degeneracy.]
+Two complete states become identical under a declared many-to-one
+projection.
+
+\item[Effective registration degeneracy.]
+Two complete states remain mathematically distinct, but their
+registered difference falls below a declared resolution threshold.
+
+\end{description}
+
+The earlier finite mechanics already supplies exact examples of the
+first type.
+
+Paper 14 supplies an exact mechanism producing the second type.
+
+A complete theory of relational saturation may require both.
+
+\subsection{Projection loss and retained history}
+
+The earlier theorem chain establishes finite constructions in which a
+coarser projection returns while a more resolved construction retains
+a receipt.
+
+Examples include:
+
+\begin{itemize}
+
+\item lifted versus projected cycle return;
+
+\item binary versus integer refinement;
+
+\item quotient versus complete registered recurrence;
+
+\item visible registration closure with retained history winding.
+
+\end{itemize}
+
+Paper 14 does not yet prove that these retained receipts coexist with
+quadratic contrast concentration inside one admitted native loading
+sequence.
+
+That missing diagram is important.
+
+The two sides currently exist as independently established structures:
+
+\[
+\text{contrast concentration}
+\]
+
+and
+
+\[
+\text{retained higher-resolution distinction}.
+\]
+
+The full native saturation theorem would join them.
+
+\subsection{The missing commutative diagram}
+
+A strong native theorem would require a construction of the form
+
+\[
+\begin{array}{ccc}
+X_k & \xrightarrow{T} & X_{k+1} \\
+\downarrow \rho & & \downarrow \rho \\
+H_k & \xrightarrow{L} & H_{k+1},
+\end{array}
+\]
+
+where:
+
+\begin{enumerate}[label=(\roman*)]
+
+\item \(T\) is an admitted native transport or loading law;
+
+\item \(\rho\) is a declared registered readout;
+
+\item \(L\) is a certified contrast-concentrating operator;
+
+\item the diagram commutes;
+
+\item some retained receipt or history distinction remains nontrivial
+upstairs while registered contrast contracts downstairs.
+
+\end{enumerate}
+
+Paper 14 proves the required behavior for a candidate downstairs
+operator,
+
+\[
+L=\widehat Q.
+\]
+
+It does not yet supply \(T\) and \(\rho\) with the required native
+crosswalk.
+
+\subsection{What would turn the conjecture into a theorem}
+
+The Thalean Relational Saturation Conjecture would become an internal
+native theorem if the following chain were proved:
+
+\[
+\text{globally compatible native transport}
+\]
+
+\[
+\downarrow
+\]
+
+\[
+\text{declared finite loading family}
+\]
+
+\[
+\downarrow
+\]
+
+\[
+\text{certified registered readout}
+\]
+
+\[
+\downarrow
+\]
+
+\[
+\text{contrast concentration}
+\]
+
+together with
+
+\[
+\text{retained complete distinction}.
+\]
+
+The deepest open step is not the spectral inequality.
+
+That part is closed.
+
+The open step is provenance.
+
+\subsection{The role of global sigma}
+
+The current inter-face sigma problem belongs exactly at this
+provenance boundary.
+
+A complete sigma would determine which locally admissible seam
+relations coexist in one globally closed transport structure.
+
+Only then could one ask whether repeated admissible transport induces
+a contrast-concentrating registered sequence.
+
+The current search has not established that global sigma.
+
+Therefore the Mac result sharpens the theorem target without proving
+saturation.
+
+The appropriate reading is:
+
+\begin{quote}
+The Mac work tells us more precisely what would have to saturate. It
+does not tell us that saturation occurs physically.
+\end{quote}
+
+\subsection{Long range as lawful sum}
+
+The saturation conjecture also sharpens the meaning of long range in
+the finite architecture.
+
+No separate long-range selector is required by the current internal
+picture.
+
+Instead,
+
+\[
+\text{local admissible relation}
+\]
+
+contributes through
+
+\[
+\text{global compatibility}
+\]
+
+to
+
+\[
+\text{an admitted summation domain}.
+\]
+
+The global registered result is then obtained by lawful accumulation.
+
+The exact incidence quadratic already provides one finite example of
+such accumulation:
+
+\[
+x
+\longmapsto
+M^{\mathsf T}x
+\longmapsto
+MM^{\mathsf T}x.
+\]
+
+The regional cochain laws and history winding provide other additive
+examples on different mathematical domains.
+
+No universal identification among them is currently proved.
+
+\subsection{Why finite capacity is still conjectural}
+
+The contrast theorem does not by itself prove a universal finite
+capacity of independent distinction.
+
+The state space used in the theorem is finite-dimensional, but the
+real coefficients form a continuum.
+
+Thus finite dimension is not the same statement as a finite number of
+possible real-valued states.
+
+A stronger saturation theorem therefore needs a declared notion of
+independent distinction.
+
+Possible choices include:
+
+\begin{itemize}
+
+\item cardinality on a finite state family;
+
+\item linear rank on a declared subspace;
+
+\item distinguishability under a finite-resolution register;
+
+\item combinatorial rank in a finite independence structure.
+
+\end{itemize}
+
+Paper 14 does not silently identify these notions.
+
+The finite independent distinction capacity appearing in the broader
+conjecture remains an explicit additional hypothesis.
+
+\subsection{Why this matters for the conjecture}
+
+This refinement makes the conjecture harder to satisfy, but also
+better defined.
+
+The theorem does not say:
+
+\begin{quote}
+Enough applications of \(Q\) destroy information.
+\end{quote}
+
+It says:
+
+\begin{quote}
+Repeated normalized quadratic aggregation suppresses centered
+registered contrast relative to the common mode while preserving
+exact finite-stage linear distinction.
+\end{quote}
+
+The difference is essential.
+
+The second statement is proved.
+
+The first would depend on what is meant by information and which
+registration is being used.
+
+\subsection{Clean release remains conditional}
+
+The clean-release hypothesis arises naturally once coherent aggregate
+and relational contrast are separated.
+
+A useful outward registration may require both:
+
+\[
+\text{coherent strength}
+\]
+
+and
+
+\[
+\text{surviving individuation}.
+\]
+
+If organization initially improves the first without destroying the
+second, a clean-release regime may exist.
+
+If further loading suppresses the second, overcompression begins.
+
+Nothing in the quadratic theorem guarantees that a particular native
+loading family has such an interior optimum.
+
+The theorem only establishes the contrast-suppressing direction that
+would eventually bound such a regime.
+
+\subsection{No singularity is required internally}
+
+The normalized quadratic dynamics studied algebraically here remain
+finite at every stage.
+
+There is no divergent local coefficient.
+
+There is no divergent state norm forced by the normalized operator.
+
+Instead, the limiting phenomenon is loss of relative individuation.
+
+This provides a mathematically simpler internal endpoint:
+
+\[
+\text{many complete distinctions}
+\]
+may become
+\[
+\text{poorly resolved by a declared registration}.
+\]
+
+That is the meaning of relational degeneracy in Paper 14.
+
+Whether an analogous mechanism replaces a physical singularity is a
+separate hypothesis.
+
+\subsection{Methodological posture}
+
+The saturation program follows the same rule as the earlier finite
+mechanics:
+
+\begin{quote}
+Do not protect the idea. Make the idea protect itself.
+\end{quote}
+
+For Paper 14, that means keeping the following failures possible.
+
+The conjecture should fail if:
+
+\begin{itemize}
+
+\item no native loading law induces contrast concentration;
+
+\item the required retained distinction disappears at the complete
+level;
+
+\item global transport compatibility cannot be established;
+
+\item the proposed saturation signature is not distinguishable from
+appropriate null structures;
+
+\item a physical bridge does not reproduce independently measured
+observables.
+
+\end{itemize}
+
+The point of the theorem is not to guarantee the larger conjecture.
+
+It is to make one part of the conjecture exact enough that the
+remaining parts can fail cleanly.
+
+\subsection{Current theorem frontier}
+
+The status at the end of the present analysis is:
+
+\[
+\text{quadratic contrast concentration}
+\quad
+\text{proved},
+\]
+
+\[
+\text{finite-stage non-erasure}
+\quad
+\text{proved},
+\]
+
+\[
+\text{projection-relative saturation language}
+\quad
+\text{defined},
+\]
+
+\[
+\text{native loading crosswalk}
+\quad
+\text{open},
+\]
+
+\[
+\text{global inter-face sigma}
+\quad
+\text{open},
+\]
+
+\[
+\text{physical saturation bridge}
+\quad
+\text{open}.
+\]
+
+This boundary is not a weakness of the theorem.
+
+It identifies the next mathematical problem.

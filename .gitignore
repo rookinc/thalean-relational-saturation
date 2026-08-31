@@ -1,0 +1,28 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Local compiled paper
+paper/main.pdf
+
+# Distribution products
+dist/*.zip
+dist/*.zip.sha256
+dist/*.sha256
+
+# Editor and operating-system files
+.DS_Store
+*~
+*.swp
+*.swo

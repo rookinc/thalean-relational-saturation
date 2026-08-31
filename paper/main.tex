@@ -1,0 +1,129 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.65em}
+\setcounter{tocdepth}{2}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Gfifteen}{G_{15}}
+\newcommand{\Gthirty}{G_{30}}
+\newcommand{\Gsixty}{G_{60}}
+\newcommand{\Petersen}{P_{10}}
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\Pzero}{P_{0}}
+\newcommand{\Pperp}{P_{\perp}}
+\newcommand{\Rrel}{R}
+\newcommand{\Ccommon}{C}
+\newcommand{\zetaRel}{\zeta}
+\newcommand{\tauT}{\tau_{\mathrm{T}}}
+\newcommand{\spec}{\operatorname{spec}}
+
+\title{
+Contrast Concentration and the\\
+Thalean Relational Saturation Conjecture\\[0.4em]
+\large A Finite Linear Theorem on
+$L(\mathrm{Petersen})$
+}
+
+\author{
+Scott Allen Cave\\
+Center of Recursive Inquiry (CoRI)\\
+Matsqui Territory -- Abbotsford, British Columbia, Canada\\
+\texttt{scott@rook.ca}\\
+ORCID: 0009-0000-0888-4232
+}
+
+\date{August 2026\\[0.3em]
+\small Reserved DOI: \href{https://doi.org/10.5281/zenodo.22210907}{10.5281/zenodo.22210907}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We isolate an exact finite linear mechanism beneath the Thalean
+Relational Saturation Conjecture.  On the quotient core
+\[
+\Gfifteen \cong L(\Petersen),
+\]
+the transport-induced sector--edge incidence matrix
+\(M\in\{0,1\}^{15\times 30}\) defines the Thalean quadratic
+\[
+Q:=MM^{\mathsf T}=A^{3}+2A^{2}+2I,
+\]
+where \(A\) is the adjacency matrix of \(\Gfifteen\).
+The common-mode line has \(Q\)-eigenvalue \(98\), while every
+centered eigenspace has eigenvalue at most \(18\).
+We prove that repeated algebraic aggregation by \(Q\) causes
+centered relational contrast to become exponentially small relative
+to the common aggregate, with contraction ratio at most
+\[
+\frac{18}{98}=\frac{9}{49}
+\]
+per iterate.  At the same time, \(Q\) is invertible, so complete
+linear distinctions are not merged by this aggregation.
+
+This establishes an exact finite instance of strong aggregate
+growth together with weakening relative individuation.  We then
+formulate projection-relative relational saturation: a regime in
+which complete distinctions or retained histories remain nontrivial
+while a declared visible or scalar readout becomes increasingly
+common-mode dominated.  The conjectural extension requires an
+additional native crosswalk showing that an admitted Thalean loading
+sequence realizes \(Q\)-iteration, a normalized \(Q\)-type operator,
+or another certified contrast-concentrating law.  Local
+admissibility is kept distinct from global compatibility, and
+failure to construct a globally closed inter-face transport relation
+is not interpreted as saturation.
+
+The result is entirely finite and internal.  No identification is
+made with physical gravity, black holes, spacetime horizons,
+singularity avoidance, Planck-scale information density, or the
+cosmic microwave background.
+\end{abstract}
+
+\tableofcontents
+
+\input{../sections/01_introduction}
+\input{../sections/02_scope_and_imported_structure}
+\input{../sections/03_projection_and_retained_distinction}
+\input{../sections/04_the_thalean_quadratic}
+\input{../sections/05_common_mode_and_centered_contrast}
+\input{../sections/06_contrast_concentration_theorem}
+\input{../sections/07_invertibility_and_non_erasure}
+\input{../sections/08_projection_relative_saturation}
+\input{../sections/09_three_finite_summation_laws}
+\input{../sections/10_global_compatibility_and_sigma}
+\input{../sections/11_clean_release_and_overcompression}
+\input{../sections/12_empirical_falsification_boundary}
+\input{../sections/13_physical_bridge_boundary}
+\input{../sections/14_discussion}
+\input{../sections/15_conclusion}
+\input{../sections/16_theorem_and_provenance_ledger}
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}

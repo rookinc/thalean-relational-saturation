@@ -1,0 +1,170 @@
+\section{Projection and Retained Distinction}
+
+\subsection{Declared projections}
+
+\begin{definition}[Complete and projected state]
+Let
+\[
+q:X\longrightarrow Y
+\]
+be a declared map between finite state spaces.  Relative to this map,
+\(x\in X\) is the complete state and \(q(x)\in Y\) is its projected
+state.
+\end{definition}
+
+The words complete and projected are map-relative.  They do not
+assert that \(X\) is an absolute final ontology or that \(Y\) is the
+only available registration.
+
+\begin{definition}[Projection equivalence]
+For \(x,x'\in X\), define
+\[
+x\sim_q x'
+\quad\Longleftrightarrow\quad
+q(x)=q(x').
+\]
+The equivalence classes are the fibres of \(q\).
+\end{definition}
+
+\begin{definition}[Projection-relative degeneracy]
+A pair \(x\neq x'\) is projection-degenerate relative to \(q\) when
+\[
+q(x)=q(x').
+\]
+The complete distinction remains present in \(X\), while the declared
+projection fails to resolve it.
+\end{definition}
+
+This is the exact finite meaning used in the present paper.  It is
+not an assertion that two complete states have merged.
+
+\subsection{Projected and complete return}
+
+Let
+\[
+T:X\longrightarrow X
+\]
+be a declared finite transformation.
+
+\begin{definition}[Return predicates]
+Complete return at step \(m\) means
+\[
+T^{m}x=x.
+\]
+Projected return at step \(m\) means
+\[
+q(T^{m}x)=q(x).
+\]
+\end{definition}
+
+\begin{proposition}[Registered-return implication]
+For every declared finite transformation and projection,
+\[
+T^{m}x=x
+\quad\Longrightarrow\quad
+q(T^{m}x)=q(x).
+\]
+The converse need not hold.
+\end{proposition}
+
+\begin{proof}
+The implication follows by applying \(q\) to the equality
+\(T^{m}x=x\).  The failure of the converse is realized explicitly by
+the certified lifted and registered recurrence examples imported from
+the earlier theorem chain.
+\end{proof}
+
+Two established examples are:
+
+\begin{enumerate}[label=(\roman*)]
+\item a three-step projected triangle return whose twisted lift
+requires six steps for complete return;
+
+\item a ten-step quotient return in the registered five-frame
+construction whose complete registered return requires twenty steps.
+\end{enumerate}
+
+These examples act on different finite objects and have different
+receipt groups.  Only the structural implication is shared.
+
+\subsection{Registration data and registered history}
+
+\begin{definition}[Registration datum]
+For a declared projection \(q:X\to Y\), a registration datum is
+finite information retained in the complete construction that is not
+determined by the projected state \(q(x)\).
+\end{definition}
+
+\begin{definition}[Registered history]
+A registered history is an ordered finite composition of declared
+transformations together with the retained registration data required
+to distinguish the resulting complete state from its projected state.
+\end{definition}
+
+The established construction contains several examples:
+
+\begin{itemize}
+\item deck receipts in finite covers;
+\item binary closure data;
+\item binary edge gauge classes;
+\item integer refinements;
+\item registered frame coordinates;
+\item primitive registered-history cycle classes.
+\end{itemize}
+
+These are not one universal receipt group.  Their common role is that
+they preserve distinctions erased by a specified forgetful map.
+
+\subsection{Scalar compression is another projection}
+
+Let
+\[
+\rho:S\longrightarrow\mathbb R^n
+\]
+be a declared real-valued readout from a richer state space \(S\).
+The composition
+\[
+S
+\overset{\rho}{\longrightarrow}
+\mathbb R^n
+\overset{R_n}{\longrightarrow}
+\mathbb R_{\ge0}
+\]
+is generally many-to-one twice over.
+
+Distinct complete states may have the same vector readout.  Distinct
+centered vectors may also have the same centered magnitude.  Thus
+\[
+R_n(\rho(s))=R_n(\rho(s'))
+\]
+does not imply
+\[
+s=s'.
+\]
+
+This provides an exact finite model for loss of registered
+individuation without loss of complete distinction.
+
+\subsection{No universal information ladder}
+
+The finite constructions do not supply one canonical chain
+\[
+\text{complete state}
+\longrightarrow
+\text{lift}
+\longrightarrow
+\text{registration}
+\longrightarrow
+\text{scalar}
+\]
+covering every object in the theory.  They supply several declared
+forgetful maps with separately certified domains.
+
+Accordingly, every saturation claim in this paper must state:
+
+\begin{enumerate}[label=(\roman*)]
+\item the complete state space;
+\item the declared projection or readout;
+\item the distinction being retained;
+\item the distinction being forgotten.
+\end{enumerate}

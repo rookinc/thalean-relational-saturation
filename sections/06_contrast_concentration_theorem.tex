@@ -1,0 +1,278 @@
+\section{The Contrast-Concentration Theorem}
+
+\begin{theorem}[Thalean quadratic contrast-concentration theorem]
+Let
+\[
+\widehat{Q}
+=
+\frac{1}{98}
+\left(A^3+2A^2+2I\right)
+\]
+on
+\[
+\mathbb R^{15},
+\]
+where \(A\) is the adjacency matrix of
+\(\Gfifteen\cong L(\Petersen)\).
+
+For every \(x\in\mathbb R^{15}\) and every integer \(k\ge0\):
+
+\begin{enumerate}[label=(\roman*)]
+\item the common component is fixed,
+\[
+\Pzero\widehat{Q}^{\,k}x
+=
+\Pzero x;
+\]
+
+\item the centered component satisfies
+\[
+\Rrel(\widehat{Q}^{\,k}x)
+\le
+\left(\frac{9}{49}\right)^k
+\Rrel(x);
+\]
+
+\item the iterates converge to the common-mode projection,
+\[
+\lim_{k\to\infty}
+\widehat{Q}^{\,k}x
+=
+\Pzero x
+=
+\overline{x}\,\one_{15};
+\]
+
+\item if \(\Ccommon(x)\neq0\), then
+\[
+\rho(\widehat{Q}^{\,k}x)
+\le
+\left(\frac{9}{49}\right)^k
+\rho(x);
+\]
+
+\item if \(x\neq0\) and \(\Ccommon(x)\neq0\), then
+\[
+\zetaRel(\widehat{Q}^{\,k}x)
+\le
+\left(\frac{9}{49}\right)^{2k}
+\rho(x)^2.
+\]
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+The matrix \(A\) is real symmetric, so its eigenspaces form an
+orthogonal decomposition.  Since
+\[
+Q=A^3+2A^2+2I,
+\]
+the matrices \(A\), \(Q\), and \(\widehat{Q}\) have the same
+eigenspaces.
+
+On the all-ones eigenspace \(E_4\), the operator
+\(\widehat{Q}\) has eigenvalue \(1\).  Therefore
+\[
+\Pzero\widehat{Q}^{\,k}x
+=
+\Pzero x.
+\]
+
+On the centered subspace
+\[
+\one_{15}^{\perp}
+=
+E_2\oplus E_{-1}\oplus E_{-2},
+\]
+the eigenvalues are
+\[
+\frac{9}{49},
+\qquad
+\frac{3}{98},
+\qquad
+\frac{1}{49}.
+\]
+All are nonnegative, and their maximum is \(9/49\).  Hence the
+Euclidean operator norm of
+\(\widehat{Q}^{\,k}\) restricted to the centered subspace is
+\[
+\left(\frac{9}{49}\right)^k.
+\]
+Thus
+\[
+\begin{aligned}
+\Rrel(\widehat{Q}^{\,k}x)
+&=
+\left\|
+\Pperp\widehat{Q}^{\,k}x
+\right\|_2\\
+&=
+\left\|
+\widehat{Q}^{\,k}\Pperp x
+\right\|_2\\
+&\le
+\left(\frac{9}{49}\right)^k
+\|\Pperp x\|_2.
+\end{aligned}
+\]
+
+The centered bound tends to zero, while the common component remains
+fixed.  Therefore
+\[
+\widehat{Q}^{\,k}x
+=
+\Pzero x+\Pperp\widehat{Q}^{\,k}x
+\longrightarrow
+\Pzero x.
+\]
+
+When \(\Ccommon(x)\neq0\), common-mode invariance gives
+\[
+\Ccommon(\widehat{Q}^{\,k}x)
+=
+\Ccommon(x),
+\]
+so division yields the bound for \(\rho\).
+
+Finally,
+\[
+\zetaRel(y)
+=
+\frac{\Rrel(y)^2}
+{\Ccommon(y)^2+\Rrel(y)^2}
+\le
+\frac{\Rrel(y)^2}{\Ccommon(y)^2}.
+\]
+Applying the preceding two bounds with
+\(y=\widehat{Q}^{\,k}x\) proves the final inequality.
+\end{proof}
+
+\subsection{Exact modal formula}
+
+Write
+\[
+x
+=
+x_4+x_2+x_{-1}+x_{-2},
+\qquad
+x_\lambda\in E_\lambda.
+\]
+Then
+\[
+\widehat{Q}^{\,k}x
+=
+x_4
++
+\left(\frac{9}{49}\right)^k x_2
++
+\left(\frac{3}{98}\right)^k x_{-1}
++
+\left(\frac{1}{49}\right)^k x_{-2}.
+\]
+
+Consequently,
+\[
+\Rrel(\widehat{Q}^{\,k}x)^2
+=
+\left(\frac{9}{49}\right)^{2k}\|x_2\|_2^2
++
+\left(\frac{3}{98}\right)^{2k}\|x_{-1}\|_2^2
++
+\left(\frac{1}{49}\right)^{2k}\|x_{-2}\|_2^2.
+\]
+
+The bound in the theorem is sharp whenever the centered component
+lies entirely in \(E_2\).
+
+\begin{corollary}[Operator convergence]
+In Euclidean operator norm,
+\[
+\widehat{Q}^{\,k}
+\longrightarrow
+\Pzero,
+\]
+and
+\[
+\left\|
+\widehat{Q}^{\,k}-\Pzero
+\right\|_{2\to2}
+=
+\left(\frac{9}{49}\right)^k.
+\]
+\end{corollary}
+
+\begin{proof}
+The difference vanishes on \(E_4\) and acts on the centered
+eigenspaces with eigenvalues
+\[
+\left(\frac{9}{49}\right)^k,\quad
+\left(\frac{3}{98}\right)^k,\quad
+\left(\frac{1}{49}\right)^k.
+\]
+The largest absolute value is
+\((9/49)^k\).
+\end{proof}
+
+\begin{remark}[Exactly centered input]
+If
+\[
+\Pzero x=0,
+\]
+then every iterate remains centered:
+\[
+\Pzero\widehat{Q}^{\,k}x=0.
+\]
+In that case,
+\[
+\widehat{Q}^{\,k}x\longrightarrow0.
+\]
+The operator does not create a common component that was absent from
+the input.
+\end{remark}
+
+\begin{remark}[Raw and normalized aggregation]
+For the unnormalized quadratic,
+\[
+\Ccommon(Q^kx)
+=
+98^k\Ccommon(x)
+\]
+and
+\[
+\Rrel(Q^kx)
+\le
+18^k\Rrel(x).
+\]
+Thus the same ratio
+\[
+\frac{18}{98}
+=
+\frac{9}{49}
+\]
+governs relative contrast concentration under raw \(Q\)-iteration.
+
+The normalized operator is preferable for the theorem because it
+fixes the aggregate scale and turns the relative statement into an
+absolute centered contraction.
+\end{remark}
+
+\subsection{Interpretive boundary}
+
+The theorem proves exact algebraic convergence under repeated
+application of a canonically normalized incidence operator.  It does
+not prove that the native Thalean mechanics repeatedly applies this
+operator to a physical state.
+
+The theorem object is therefore:
+
+\[
+\text{exact contrast concentration under }\widehat{Q}.
+\]
+
+The open crosswalk is:
+
+\[
+\text{native admitted loading}
+\stackrel{?}{\longrightarrow}
+\widehat{Q}\text{-type concentration}.
+\]

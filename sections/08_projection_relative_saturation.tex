@@ -1,0 +1,274 @@
+\section{Projection-Relative Saturation}
+
+\subsection{Why saturation must be projection-relative}
+
+The finite mechanics contains several distinct forgetful maps.
+Consequently, the statement that a system has ``lost information''
+is incomplete unless the relevant map is named.
+
+Let
+\[
+q:X\longrightarrow Y
+\]
+be a declared projection.
+
+A distinction between \(x,x'\in X\) survives the projection when
+\[
+q(x)\neq q(x').
+\]
+It is hidden by the projection when
+\[
+x\neq x',
+\qquad
+q(x)=q(x').
+\]
+
+The second relation does not imply that the complete states have
+merged. It says only that the declared projection no longer resolves
+their difference.
+
+\begin{definition}[Projection-relative degeneracy]
+Two distinct complete states \(x,x'\in X\) are projection-degenerate
+relative to \(q\) when
+\[
+q(x)=q(x').
+\]
+\end{definition}
+
+This is an exact statement about a map.
+
+It is not an ontological identification of \(x\) and \(x'\).
+
+\subsection{Independent registered distinction}
+
+Let
+\[
+\mathcal X\subseteq X
+\]
+be a declared family of complete states.
+
+The projected state set is
+\[
+q(\mathcal X)\subseteq Y.
+\]
+
+When the relevant notion of independence is cardinal, the number of
+projected distinction classes is simply
+\[
+K_q(\mathcal X)
+=
+|q(\mathcal X)|.
+\]
+
+More generally, when a declared linear or combinatorial rank function
+is available, write
+\[
+r_q(\mathcal X)
+\]
+for the independent distinction rank that survives the projection.
+
+No universal rank function is assumed in this paper.
+
+The choice must be stated for the particular register being studied.
+
+\subsection{Projection-relative saturation}
+
+\begin{definition}[Projection-relative saturation]
+Let
+\[
+\{x_\lambda\}_{\lambda\in\Lambda}
+\]
+be a declared loading family of complete states or admitted histories,
+and let
+\[
+q:X\longrightarrow Y
+\]
+be a declared projection or registration.
+
+The family enters a projection-relative saturation regime when:
+
+\begin{enumerate}[label=(\roman*)]
+\item complete distinction remains nontrivial;
+
+\item the independent distinction visible through \(q\) is bounded;
+
+\item increasing loading ceases to produce corresponding growth of
+independently resolved projected distinction;
+
+\item additional complete variation is therefore increasingly carried
+inside fibres of \(q\), retained receipts, lifted structure, or other
+higher-resolution data.
+\end{enumerate}
+\end{definition}
+
+Saturation is therefore not defined as disappearance of the complete
+state.
+
+It is a statement about the relationship between complete variation
+and the resolving capacity of a declared registration.
+
+\subsection{Contrast saturation on the sector register}
+
+For the fifteen-sector real register, Paper 14 defines
+\[
+\zetaRel(x)
+=
+\frac{\|\Pperp x\|_2^2}{\|x\|_2^2},
+\qquad
+x\neq0.
+\]
+
+This dimensionless quantity measures the fraction of register
+magnitude carried by centered relational contrast.
+
+\begin{definition}[Contrast-saturating sequence]
+A sequence of nonzero registered states
+\[
+x_0,x_1,x_2,\ldots
+\]
+is contrast-saturating when
+\[
+\zetaRel(x_k)
+\]
+approaches a stable minimum while the corresponding complete state
+sequence remains nontrivial.
+\end{definition}
+
+For normalized quadratic aggregation, if
+\[
+\Pzero x\neq0,
+\]
+the contrast-concentration theorem gives
+\[
+\zetaRel(\widehat Q^{\,k}x)
+\longrightarrow0.
+\]
+
+Thus \(\widehat Q\)-iteration supplies an exact algebraic example of
+complete common-mode concentration.
+
+\begin{corollary}[Asymptotic contrast saturation]
+If
+\[
+\Pzero x\neq0,
+\]
+then
+\[
+\lim_{k\to\infty}
+\zetaRel(\widehat Q^{\,k}x)
+=
+0.
+\]
+For every finite \(k\), however,
+\[
+\widehat Q^{\,k}
+\]
+remains invertible.
+\end{corollary}
+
+Hence the same finite sequence exhibits
+\[
+\text{relative registered contrast}\longrightarrow0
+\]
+while
+\[
+\text{exact finite-stage distinction remains recoverable}.
+\]
+
+This is the exact algebraic core motivating the saturation language.
+
+\subsection{Finite-resolution saturation}
+
+Exact arithmetic is not the only possible declared registration.
+
+Let
+\[
+\varepsilon>0
+\]
+be a fixed resolution threshold, and let
+\[
+d=x-y
+\]
+be a nonzero centered distinction:
+\[
+d\in\one_{15}^{\perp}.
+\]
+
+The contrast-concentration theorem gives
+\[
+\|\widehat Q^{\,k}d\|_2
+\le
+\left(\frac{9}{49}\right)^k
+\|d\|_2.
+\]
+
+Therefore, for every fixed \(\varepsilon>0\), there exists a finite
+\(k_\varepsilon\) such that
+\[
+0<
+\|\widehat Q^{\,k}d\|_2
+<
+\varepsilon
+\]
+for all
+\[
+k\ge k_\varepsilon.
+\]
+
+The distinction remains mathematically nonzero, but a registration
+with resolution \(\varepsilon\) no longer distinguishes it.
+
+We call this
+\emph{effective registration degeneracy}.
+
+It must remain distinct from exact equality.
+
+\subsection{Saturation is not global incompatibility}
+
+The conjecture presupposes an admitted globally compatible transport
+structure.
+
+Failure of locally admissible choices to assemble into a globally
+closed transport relation is a different phenomenon.
+
+We therefore distinguish:
+
+\begin{description}
+
+\item[Local inadmissibility.]
+A proposed local transition is not contained in the admitted local
+transport vocabulary.
+
+\item[Global incompatibility.]
+Locally admissible transitions cannot be assembled into a globally
+closed transport assignment satisfying the declared compatibility
+conditions.
+
+\item[Relational saturation.]
+A globally admitted construction retains complete distinctions while
+a declared registration ceases gaining independent resolving power.
+
+\end{description}
+
+The third must never be inferred from the second.
+
+\subsection{Boundary}
+
+The exact result of this section is a definition plus a proved
+algebraic example.
+
+Normalized \(Q\)-iteration is contrast-saturating relative to the
+centered sector readout.
+
+What remains unproved is that a native admitted Thalean loading law
+realizes this sequence or an equivalent contrast-concentrating family.
+
+Accordingly,
+\[
+\text{contrast saturation under }\widehat Q
+\]
+is theorem-side, while
+\[
+\text{native relational saturation}
+\]
+remains conjectural.

@@ -1,0 +1,205 @@
+\section{Invertibility and Non-Erasure}
+
+\subsection{Finite-stage invertibility}
+
+All eigenvalues of \(Q\) are strictly positive:
+\[
+98,\quad18,\quad3,\quad2.
+\]
+Therefore \(Q\) and \(\widehat{Q}\) are invertible.
+
+Their determinants are
+\[
+\det Q
+=
+98\cdot18^5\cdot3^4\cdot2^5
+>
+0
+\]
+and
+\[
+\det\widehat{Q}
+=
+\left(\frac{9}{49}\right)^5
+\left(\frac{3}{98}\right)^4
+\left(\frac{1}{49}\right)^5
+>
+0.
+\]
+
+\begin{proposition}[Finite-stage non-erasure]
+For every finite integer \(k\ge0\) and every
+\(x,y\in\mathbb R^{15}\),
+\[
+\widehat{Q}^{\,k}x
+=
+\widehat{Q}^{\,k}y
+\quad\Longleftrightarrow\quad
+x=y.
+\]
+\end{proposition}
+
+\begin{proof}
+Every finite power of an invertible matrix is invertible.
+\end{proof}
+
+Thus no two complete linear sector states are merged by a finite
+number of normalized quadratic aggregation steps.
+
+\subsection{An invertible sequence with a noninvertible limit}
+
+The contrast-concentration theorem gives
+\[
+\widehat{Q}^{\,k}
+\longrightarrow
+\Pzero.
+\]
+The limiting operator \(\Pzero\) has rank one and is not invertible.
+
+Therefore Paper 14 exhibits the following exact finite-dimensional
+phenomenon:
+\[
+\begin{array}{c}
+\text{every finite iterate is invertible},\\[0.3em]
+\text{the operator limit is many-to-one}.
+\end{array}
+\]
+
+There is no contradiction.  The inverses
+\[
+\widehat{Q}^{-k}
+\]
+become increasingly ill-conditioned on centered directions as
+\(k\) grows.
+
+The finite state remains mathematically recoverable when the exact
+iterate and exact output are retained.  Recovery becomes
+progressively sensitive to any loss of centered precision.
+
+\subsection{Exact distinction and effective resolution}
+
+Let
+\[
+d=x-y\neq0
+\]
+be a complete distinction vector.  Then
+\[
+\widehat{Q}^{\,k}d\neq0
+\]
+for every finite \(k\).
+
+If \(d\) is centered, however,
+\[
+\left\|
+\widehat{Q}^{\,k}d
+\right\|_2
+\le
+\left(\frac{9}{49}\right)^k
+\|d\|_2.
+\]
+
+Thus a complete distinction may remain exact while its centered
+registered amplitude becomes arbitrarily small.
+
+For a declared resolution threshold
+\(\varepsilon>0\), there may exist a finite \(k\) for which
+\[
+0
+<
+\left\|
+\widehat{Q}^{\,k}d
+\right\|_2
+<
+\varepsilon.
+\]
+The distinction is still present in exact arithmetic but is no
+longer resolved by that thresholded readout.
+
+This motivates the phrase
+\emph{effective registration degeneracy}.  It must not be confused
+with exact equality of complete states.
+
+\subsection{Scalar readout loss}
+
+The centered scalar
+\[
+R_{15}(x)
+=
+\|\Pperp x\|_2
+\]
+is itself many-to-one.  Distinct centered vectors may share the same
+norm.  Therefore even before any iteration,
+\[
+R_{15}(x)=R_{15}(y)
+\]
+does not imply
+\[
+x=y.
+\]
+
+The normalized contrast fraction
+\[
+\zetaRel(x)
+=
+\frac{R_{15}(x)^2}{\|x\|_2^2}
+\]
+forgets still more structure: common scale, centered direction, and
+all lifted data absent from the fifteen-component register.
+
+Consequently, three levels must remain separate:
+
+\begin{enumerate}[label=(\roman*)]
+\item exact complete sector state;
+\item fifteen-component incidence register;
+\item scalar contrast readout.
+\end{enumerate}
+
+Loss at level (iii) is not erasure at level (i).
+
+\subsection{Relation to retained history}
+
+The earlier finite mechanics supplies stronger distinctions than the
+quadratic sector register alone.  Covering holonomy, deck receipts,
+integer refinements, and registered-history winding can distinguish
+states or histories that have already become identical under a
+coarser projection.
+
+The present quadratic theorem does not yet act on those richer
+objects.  It supplies the contrast-concentrating side of the proposed
+saturation architecture.  The retained-history theorem supplies
+examples of complete distinction surviving projection.
+
+A full internal saturation theorem would require one admitted native
+construction in which both occur in the same declared diagram:
+\[
+\begin{array}{ccc}
+\text{complete admitted state}
+&\longrightarrow&
+\text{retained receipt or winding}\\
+\downarrow
+&&
+\downarrow\\
+\text{contrast-concentrating register}
+&\longrightarrow&
+\text{coarse scalar or visible state}.
+\end{array}
+\]
+
+The current theorem chain has not yet supplied that crosswalk.
+
+\subsection{The exact conclusion}
+
+The exact conclusion of Sections 4--7 is:
+
+\begin{quote}
+The normalized Thalean quadratic contracts every centered sector
+direction by a factor at most \(9/49\) per iterate, converges to the
+common-mode projection, and remains invertible at every finite
+iterate.
+\end{quote}
+
+This is a theorem of finite linear algebra.
+
+Its saturation interpretation is internal and conditional.
+
+Its physical interpretation remains open.

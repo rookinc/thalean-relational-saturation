@@ -1,0 +1,188 @@
+\section{Common Mode and Centered Relational Contrast}
+
+\subsection{Orthogonal projections}
+
+Let
+\[
+J=\one_{15}\one_{15}^{\mathsf T}.
+\]
+Define
+\[
+\Pzero
+=
+\frac{1}{15}J
+\]
+and
+\[
+\Pperp
+=
+I-\Pzero.
+\]
+
+Then \(\Pzero\) is the orthogonal projection onto
+\[
+\operatorname{span}\{\one_{15}\},
+\]
+and \(\Pperp\) is the orthogonal projection onto
+\[
+\one_{15}^{\perp}
+=
+\left\{
+x\in\mathbb R^{15}:
+\one_{15}^{\mathsf T}x=0
+\right\}.
+\]
+
+Every \(x\in\mathbb R^{15}\) has the unique decomposition
+\[
+x
+=
+\Pzero x+\Pperp x.
+\]
+
+Writing
+\[
+\overline{x}
+=
+\frac{1}{15}\one_{15}^{\mathsf T}x,
+\]
+we have
+\[
+\Pzero x
+=
+\overline{x}\,\one_{15}.
+\]
+
+\subsection{Common and relational magnitudes}
+
+Define
+\[
+\Ccommon(x)
+:=
+\|\Pzero x\|_2
+=
+\sqrt{15}\,|\overline{x}|
+\]
+and
+\[
+\Rrel(x)
+:=
+\|\Pperp x\|_2
+=
+\left\|
+x-\overline{x}\,\one_{15}
+\right\|_2.
+\]
+
+The second quantity is exactly the centered relational magnitude
+specialized to the fifteen-sector register.
+
+Orthogonality gives
+\[
+\|x\|_2^2
+=
+\Ccommon(x)^2+\Rrel(x)^2.
+\]
+
+\subsection{Dimensionless contrast fraction}
+
+For \(x\neq0\), define
+\[
+\zetaRel(x)
+:=
+\frac{\Rrel(x)^2}{\|x\|_2^2}.
+\]
+Then
+\[
+0\le\zetaRel(x)\le1.
+\]
+
+Moreover,
+\[
+\zetaRel(x)=0
+\quad\Longleftrightarrow\quad
+x\in\operatorname{span}\{\one_{15}\},
+\]
+while
+\[
+\zetaRel(x)=1
+\quad\Longleftrightarrow\quad
+x\in\one_{15}^{\perp}.
+\]
+
+Thus \(\zetaRel\) measures the fraction of Euclidean register
+magnitude carried by centered relational contrast rather than by the
+common mode.
+
+When \(\Ccommon(x)\neq0\), we also define the relative contrast ratio
+\[
+\rho(x)
+:=
+\frac{\Rrel(x)}{\Ccommon(x)}.
+\]
+
+\subsection{Invariant decomposition under the quadratic}
+
+Because \(Q\) is a polynomial in the regular graph adjacency matrix
+\(A\), both \(\Pzero\) and \(\Pperp\) commute with \(Q\), and hence
+with \(\widehat{Q}\):
+\[
+\Pzero\widehat{Q}
+=
+\widehat{Q}\Pzero,
+\qquad
+\Pperp\widehat{Q}
+=
+\widehat{Q}\Pperp.
+\]
+
+Therefore the common and centered subspaces are invariant.
+
+This point is essential.  Contrast concentration under
+\(\widehat{Q}\) does not arise because centered amplitude is
+transferred into the common mode.  The two subspaces do not mix.
+Instead, the common mode has eigenvalue \(1\), while every centered
+mode has eigenvalue strictly smaller than \(1\).
+
+\subsection{Complete spectral decomposition}
+
+Let \(E_\lambda\) denote the orthogonal eigenspace of \(A\) with
+eigenvalue \(\lambda\).  Then
+\[
+\mathbb R^{15}
+=
+E_4
+\oplus
+E_2
+\oplus
+E_{-1}
+\oplus
+E_{-2},
+\]
+with
+\[
+\dim E_4=1,\quad
+\dim E_2=5,\quad
+\dim E_{-1}=4,\quad
+\dim E_{-2}=5.
+\]
+
+The common-mode space is
+\[
+E_4=\operatorname{span}\{\one_{15}\}.
+\]
+
+On these four spaces, \(\widehat{Q}\) acts respectively by
+\[
+1,\qquad
+\frac{9}{49},\qquad
+\frac{3}{98},\qquad
+\frac{1}{49}.
+\]
+
+The largest centered eigenvalue is therefore
+\[
+\lambda_{\mathrm{cent}}
+=
+\frac{9}{49}.
+\]

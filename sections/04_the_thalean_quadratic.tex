@@ -1,0 +1,210 @@
+\section{The Thalean Quadratic}
+
+\subsection{The Petersen-rooted sector system}
+
+Let
+\[
+\Gfifteen\cong L(\Petersen)
+\]
+and let \(A\) be its adjacency matrix.  The graph has fifteen
+vertices and thirty edges.
+
+For each \(v\in V(\Gfifteen)\), the transport construction supplies a
+sector
+\[
+S(v)\subseteq E(\Gfifteen).
+\]
+Every sector contains fourteen edges, and every core edge belongs to
+exactly seven sectors.
+
+Define
+\[
+M=(M_{v,e})\in\{0,1\}^{15\times30}
+\]
+by
+\[
+M_{v,e}
+=
+\begin{cases}
+1,&e\in S(v),\\
+0,&e\notin S(v).
+\end{cases}
+\]
+
+The Thalean quadratic is
+\[
+Q:=MM^{\mathsf T}.
+\]
+Its entries are
+\[
+Q_{u,v}
+=
+|S(u)\cap S(v)|.
+\]
+
+\subsection{Distance and adjacency forms}
+
+The overlap depends only on distance in \(\Gfifteen\):
+\[
+Q
+=
+14D_0+9D_1+5D_2+4D_3.
+\]
+Because \(\Gfifteen\) is distance-regular of diameter three, this
+reduces exactly to
+\[
+Q=A^3+2A^2+2I.
+\]
+
+The identity has two logically separate interpretations.
+
+First, it is a Gram identity:
+\[
+Q=MM^{\mathsf T}.
+\]
+Second, it belongs to the adjacency algebra:
+\[
+Q=A^3+2A^2+2I.
+\]
+
+Neither description includes the signed lift or its holonomy class.
+
+\subsection{Edge-mediated accumulation}
+
+For a sector coefficient vector
+\[
+x\in\mathbb R^{15},
+\]
+the vector
+\[
+M^{\mathsf T}x\in\mathbb R^{30}
+\]
+assigns to each core edge the sum of the coefficients of all sectors
+containing that edge.
+
+Applying \(M\) again returns the accumulated edge values to the
+sector register:
+\[
+x
+\longmapsto
+M^{\mathsf T}x
+\longmapsto
+MM^{\mathsf T}x
+=
+Qx.
+\]
+
+Thus \(Q\) is an exact finite local-to-global-to-local incidence sum.
+
+\subsection{The common incidence mode}
+
+Let \(\one_{15}\) and \(\one_{30}\) denote the all-ones vectors in
+their respective dimensions.  Column weight seven gives
+\[
+M^{\mathsf T}\one_{15}
+=
+7\one_{30}.
+\]
+Row weight fourteen gives
+\[
+M\one_{30}
+=
+14\one_{15}.
+\]
+Consequently,
+\[
+Q\one_{15}
+=
+M(7\one_{30})
+=
+98\one_{15}.
+\]
+
+The number \(98=7\cdot14\) is therefore obtained directly from the
+balanced incidence structure.
+
+\subsection{Spectrum}
+
+The adjacency spectrum is
+\[
+\spec(A)
+=
+\left\{
+4^{(1)},\,
+2^{(5)},\,
+(-1)^{(4)},\,
+(-2)^{(5)}
+\right\}.
+\]
+For
+\[
+p(t)=t^3+2t^2+2,
+\]
+we have
+\[
+p(4)=98,\qquad
+p(2)=18,\qquad
+p(-1)=3,\qquad
+p(-2)=2.
+\]
+Hence
+\[
+\spec(Q)
+=
+\left\{
+98^{(1)},\,
+18^{(5)},\,
+3^{(4)},\,
+2^{(5)}
+\right\}.
+\]
+
+In particular, \(Q\) is symmetric positive definite.
+
+\subsection{Canonical normalization}
+
+Define
+\[
+\widehat{Q}
+:=
+\frac{1}{98}Q.
+\]
+Then
+\[
+\widehat{Q}\one_{15}
+=
+\one_{15}.
+\]
+
+Since \(Q\) is symmetric and every row sum is \(98\),
+\(\widehat{Q}\) is symmetric and doubly stochastic.  No probabilistic
+interpretation is required.  Here it is used only as the unique scalar
+normalization that fixes the common incidence mode.
+
+Its spectrum is
+\[
+\spec(\widehat{Q})
+=
+\left\{
+1^{(1)},\,
+\left(\frac{9}{49}\right)^{(5)},\,
+\left(\frac{3}{98}\right)^{(4)},\,
+\left(\frac{1}{49}\right)^{(5)}
+\right\}.
+\]
+
+\subsection{Operator boundary}
+
+The map \(\widehat{Q}\) is a canonically normalized incidence
+operator.  The present theorem does not establish that one
+application of \(\widehat{Q}\) is:
+
+\begin{itemize}
+\item one native transport step;
+\item one Thalean-time increment;
+\item one physical averaging event;
+\item or one stage of physical compression.
+\end{itemize}
+
+Iteration is studied algebraically.  Its promotion to native loading
+requires a separate crosswalk.
