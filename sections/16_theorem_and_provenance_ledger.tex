@@ -1,11 +1,11 @@
 \section{Theorem and Provenance Ledger}
 
-This section records the exact status of the structures used in
-Paper 14.
+This section records the exact status of the structures used in Paper
+14.
 
-The purpose is to keep imported theorem-level facts, new results,
-internal conjectures, computational frontiers, and physical bridge
-hypotheses distinct.
+Its purpose is to keep imported theorem-level facts, new finite
+results, conditional internal extensions, computational frontiers,
+and physical bridge hypotheses distinct.
 
 \subsection{Imported theorem-level structure}
 
@@ -13,341 +13,375 @@ The following objects are imported from the established finite
 AT4val[60,6] theorem chain.
 
 \begin{center}
-\begin{tabular}{p{0.34\linewidth}p{0.56\linewidth}}
+\begin{tabular}{p{0.43\textwidth} p{0.47\textwidth}}
 \toprule
-Object or statement & Status \\
+Object or statement & Status\\
 \midrule
 
-\(
-G_{15}\cong L(\mathrm{Petersen})
-\)
-&
-proved finite graph identification
-\\
+\(\Gfifteen\cong L(\Petersen)\) &
+proved finite graph identification\\
 
-\(
-M\in\{0,1\}^{15\times30}
-\)
-&
-proved transport-induced sector-edge incidence matrix
-\\
+\(M\in\{0,1\}^{15\times30}\) &
+proved transport-induced sector--edge incidence matrix\\
 
-row weight \(14\), column weight \(7\)
-&
-proved incidence census
-\\
+row weight \(14\), column weight \(7\) &
+proved incidence census\\
 
-\(
-Q=MM^{\mathsf T}
-\)
-&
-proved sector-overlap Gram identity
-\\
+\(Q=MM^{\mathsf T}\) &
+proved sector-overlap Gram identity\\
 
-\(
-Q=A^3+2A^2+2I
-\)
-&
-proved adjacency-algebra identity
-\\
+\(Q=A^3+2A^2+2I\) &
+proved adjacency-algebra identity\\
 
-\(
-\operatorname{spec}(Q)
-=
-\{98^{(1)},18^{(5)},3^{(4)},2^{(5)}\}
-\)
-&
-proved spectral decomposition
-\\
+\(\spec(Q)=
+\{98^{(1)},18^{(5)},3^{(4)},2^{(5)}\}\) &
+proved spectral decomposition\\
 
-signed
-\(
-G_{30}\to G_{15}
-\)
-lift
-&
-proved finite covering structure
-\\
+signed \(G_{30}\to G_{15}\) lift &
+proved finite covering structure\\
 
-nontrivial binary switching class
-&
-proved lifted holonomy not determined by \(Q\)
-\\
+nontrivial binary switching class &
+proved lifted holonomy not determined by \(Q\)\\
 
-projected return before complete return
-&
-proved in multiple declared finite constructions
-\\
+projected return before complete return &
+proved in multiple declared finite constructions\\
 
-registered history
-&
-proved retained finite distinction relative to declared projections
-\\
+registered history &
+proved retained finite distinction relative to declared projections\\
 
-\(
-\tau_{\mathrm T}
-=
-\operatorname{wind}_{r_1}
-\)
-&
-proved intrinsic additive oriented history coordinate
-\\
+\(\tau_{\mathrm T}=\operatorname{wind}_{r_1}\) &
+proved intrinsic additive oriented history coordinate\\
 
-\(
-R_n(h)
-=
-\|h-\overline h\,\mathbf 1_n\|_2
-\)
-&
-proved centered Euclidean invariant on a declared finite register
-\\
+\(R_n(h)=\|h-\bar h\one_n\|_2\) &
+proved centered Euclidean invariant on a declared finite register\\
+
+native \(60\)-state registered carrier &
+proved contextual transport system\\
+
+\(120\) accepted oriented registered words &
+proved carrier-language census\\
+
+two-edge determinism &
+proved unique completion after a live oriented two-edge path\\
 
 \bottomrule
 \end{tabular}
 \end{center}
 
-\subsection{New theorem-level results of Paper 14}
+\subsection{Quadratic theorem-level results}
 
-Paper 14 introduces the canonical normalization
-
+For
 \[
-\widehat Q
-=
-\frac{1}{98}Q.
+\widehat Q=\frac1{98}Q,
 \]
-
-The following results are proved in this paper.
+the following are proved.
 
 \begin{center}
-\begin{tabular}{p{0.42\linewidth}p{0.48\linewidth}}
+\begin{tabular}{p{0.46\textwidth} p{0.42\textwidth}}
 \toprule
-Statement & Status \\
+Statement & Status\\
 \midrule
 
-\(
-\widehat Q\mathbf 1
-=
-\mathbf 1
-\)
-&
-proved
-\\
-
-common-mode eigenvalue
-\(
-1
-\)
-&
-proved
-\\
+\(\widehat Q\one=\one\) &
+proved\\
 
 centered eigenvalues
+\(9/49,3/98,1/49\) &
+proved\\
+
+centered spectral radius \(9/49\) &
+proved and sharp\\
+
 \(
-9/49,\ 3/98,\ 1/49
-\)
-&
-proved
-\\
-
-centered spectral radius
-\[
-\rho_{\mathrm{cent}}
-=
-\frac{9}{49}
-\]
-&
-proved
-\\
-
-\[
 R(\widehat Q^{\,k}x)
 \le
-\left(\frac{9}{49}\right)^kR(x)
-\]
-&
-proved
-\\
+(9/49)^kR(x)
+\) &
+proved\\
 
-\[
-\widehat Q^{\,k}
-\longrightarrow
-P_0
-\]
-&
-proved in Euclidean operator norm
-\\
-
-\[
-\left\|
-\widehat Q^{\,k}-P_0
-\right\|_{2\to2}
-=
-\left(\frac{9}{49}\right)^k
-\]
-&
-proved and sharp
-\\
+\(\widehat Q^{\,k}\to P_0\) &
+proved in Euclidean operator norm\\
 
 \(
-\det\widehat Q\neq0
-\)
-&
-proved
-\\
+\|\widehat Q^{\,k}-P_0\|_{2\to2}
+=
+(9/49)^k
+\) &
+proved and sharp\\
+
+\(\det\widehat Q\neq0\) &
+proved\\
 
 finite-stage invertibility of
-\(
-\widehat Q^{\,k}
-\)
-&
-proved for every finite \(k\)
-\\
+\(\widehat Q^{\,k}\) &
+proved for every finite \(k\)\\
 
-rank-one asymptotic limit
-&
-proved because
-\(
-\operatorname{rank}(P_0)=1
-\)
-\\
-
-finite-resolution contrast loss
-&
-proved relative to any fixed positive threshold
-\\
+finite-resolution contrast loss &
+proved relative to every fixed positive threshold\\
 
 \bottomrule
 \end{tabular}
 \end{center}
 
-\subsection{Exact theorem keeper}
+\subsection{Native relational-loading theorem}
 
-The new theorem package may be summarized as:
-
-\begin{quote}
-The normalized Thalean quadratic is an invertible finite linear
-contrast concentrator whose iterates converge sharply to the
-common-mode projection.
-\end{quote}
-
-Equivalently:
-
-\begin{quote}
-Relative registered contrast may approach zero while exact
-finite-stage linear distinction remains preserved.
-\end{quote}
-
-\subsection{Defined but not promoted to theorem}
-
-The following terms are defined in Paper 14 but are not themselves
-proved native dynamical laws:
-
-\begin{itemize}
-
-\item projection-relative saturation;
-
-\item contrast saturation;
-
-\item effective registration degeneracy;
-
-\item clean release;
-
-\item overcompression;
-
-\item inter-face sigma;
-
-\item admitted summation domain.
-
-\end{itemize}
-
-These definitions organize the conjectural mechanics around the exact
-linear theorem.
-
-\subsection{Thalean Relational Saturation Conjecture}
-
-The central conjectural extension is:
-
-\begin{quote}
-Given a globally compatible finite linear admissible transport
-structure, a declared projection or registration, a finite additive
-aggregation law, and finite independent distinction capacity,
-increasing relational loading can strengthen the coherent aggregate
-of bounded admissible contributions while reducing their independent
-registered contrast.
-
-Beyond a critical regime, additional loading is expressed through
-increasing dependency, common-mode concentration, and
-projection-relative degeneracy rather than unbounded growth of
-independent local distinction.
-
-Complete distinctions may remain preserved by the finite transport
-while the declared registration no longer resolves them independently.
-\end{quote}
-
-This statement is not yet a theorem of the native higher mechanics.
-
-\subsection{Missing native crosswalk}
-
-The principal missing mathematical arrow is
-
+For a live registered prefix \(p\), let
 \[
-\text{native admitted transport/loading}
-\longrightarrow
-\text{certified contrast-concentrating register}.
+\mathcal C(p)
+\]
+be the lawful completion family.
+
+The following are proved.
+
+\begin{center}
+\begin{tabular}{p{0.46\textwidth} p{0.42\textwidth}}
+\toprule
+Statement & Status\\
+\midrule
+
+\(p\preceq p'
+\Rightarrow
+\mathcal C(p')\subseteq\mathcal C(p)\) &
+proved\\
+
+completion profile
+\(8\to2\to1\to1\to1\) &
+proved\\
+
+strict \(8\to2\) contractions: \(60\) &
+proved\\
+
+strict \(2\to1\) contractions: \(120\) &
+proved\\
+
+registered-future saturation at
+\(|\mathcal C|=1\) &
+proved\\
+
+distinct two-edge contexts at saturation: \(120\) &
+proved\\
+
+unique completions at saturation: \(120\) &
+proved\\
+
+two terminal holonomy designations per closing chamber &
+proved\\
+
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Context activation theorem}
+
+Let
+\[
+D=T_b-T_{ab}.
 \]
 
-A strong theorem would require a diagram of the form
-
+For the uniform unresolved-context lift \(S\),
 \[
-\begin{array}{ccc}
-X_k & \xrightarrow{T} & X_{k+1} \\
-\downarrow \rho & & \downarrow \rho \\
-H_k & \xrightarrow{L} & H_{k+1},
-\end{array}
+DS=0.
 \]
 
-with
+Thus native designation is absent from a bare unresolved chamber.
 
+After one admitted carrier step, contextual structure is generated.
+
+For every tested first-step preparation,
 \[
-\rho\circ T
+\operatorname{rank}(XT_hS)=14,
+\]
+\[
+\operatorname{rank}(DT_hS)=14,
+\]
+and
+\[
+\operatorname{rank}(RDT_hS)=10.
+\]
+
+Therefore designation becomes operational only after contextual
+transport has occurred, and then changes the second-step chamber
+readout.
+
+\subsection{Five-address retained-sector theorem}
+
+Let \(H\) denote the ten-dimensional five-address-hidden projector.
+
+Let \(\Delta\) be the context-activated native designation response on
+the fifteen-state chamber register.
+
+Then
+\[
+\operatorname{rank}(\Delta)=10
+\]
+and
+\[
+\Delta^{\mathsf T}\Delta
 =
-L\circ\rho,
+\Delta\Delta^{\mathsf T}
+=
+\frac34H.
 \]
 
-where:
-
-\begin{enumerate}[label=(\roman*)]
-
-\item \(T\) is a native admitted transformation;
-
-\item \(\rho\) is a certified registered readout;
-
-\item \(L\) is contrast-concentrating;
-
-\item retained complete distinction remains nontrivial upstairs.
-
-\end{enumerate}
-
-Paper 14 proves the required behavior for the candidate operator
-
+Moreover,
 \[
-L=\widehat Q.
+H\Delta=\Delta,
+\qquad
+\Delta H=\Delta,
+\]
+and
+\[
+\rho\Delta=0.
 \]
 
-The native \(T\) and \(\rho\) crosswalk remain open.
+Thus the native loading response is exactly supported on a retained
+relational sector invisible to the declared five-address readout.
+
+\subsection{Transport-response algebra crosswalk}
+
+Let \(R_0,R_1,R_2\) denote the three certified centered
+transport-response classes.
+
+The native loading Gram satisfies
+\[
+\Delta^{\mathsf T}\Delta
+=
+\frac1{48}R_0
+-
+\frac1{16}R_1
++
+\frac1{32}R_2.
+\]
+
+The centered Thalean quadratic satisfies
+\[
+PQP
+=
+\frac{139}{90}R_0
+-
+\frac{28}{15}R_1
++
+\frac{19}{60}R_2.
+\]
+
+Thus the native loading response and the centered quadratic occupy the
+same exact three-dimensional response algebra.
+
+They are not proportional.
+
+No identification
+\[
+\Delta
+=
+\widehat Q
+\]
+or
+\[
+\text{native loading}
+=
+\widehat Q\text{-iteration}
+\]
+is made.
+
+\subsection{Native loading contrast-antimonotonicity}
+
+For the canonical uniform completion-occupancy register,
+\[
+\zeta:
+\frac{31}{55}
+\longrightarrow
+\frac{41}{65}
+\longrightarrow
+\frac{7}{10},
+\]
+and
+\[
+\rho^2:
+\frac{31}{24}
+\longrightarrow
+\frac{41}{24}
+\longrightarrow
+\frac73.
+\]
+
+The common component remains
+\[
+C^2=\frac{12}{5}.
+\]
+
+All \(60\) strict \(8\to2\) extensions increase both contrast
+statistics.
+
+All \(120\) strict \(2\to1\) extensions increase them.
+
+There are no exceptions.
+
+Therefore
+\[
+\text{native relational loading}
+\neq
+\widehat Q\text{-type contrast concentration}.
+\]
+
+Native loading sharpens the selected future.
+
+\subsection{Internal relational-saturation theorem}
+
+The native finite relational-saturation theorem is closed.
+
+Its exact content is:
+
+\begin{quote}
+Admissible carrier transport monotonically reduces lawful future
+freedom to a unique registered continuation while complete contextual
+distinction remains nontrivial.  The resulting context-activated
+designation response is exactly supported on the retained
+five-address-hidden sector.
+\end{quote}
+
+The native theorem keeper is
+\[
+|\mathcal C|:
+8\longrightarrow2\longrightarrow1,
+\]
+together with
+\[
+\Delta^{\mathsf T}\Delta=\frac34H,
+\]
+and
+\[
+\rho\Delta=0.
+\]
+
+This theorem is distinct from quadratic contrast saturation.
+
+\subsection{Compatibility versus saturation}
+
+The following distinction is locked:
+\[
+\text{local inadmissibility}
+\neq
+\text{global incompatibility}
+\neq
+\text{relational saturation}.
+\]
+
+Failure to find a global inter-face sigma is not evidence for
+saturation.
+
+Conversely, an unresolved stronger sigma construction does not reopen
+the native finite saturation theorem already proved on the certified
+registered carrier.
 
 \subsection{Current inter-face sigma frontier}
 
-The completed Project 41 Mac search used the canonically completed,
-neighbor-frame-\(E\)-closed local seam vocabulary containing
+The stronger inter-face transport problem remains open.
 
+The completed search used
 \[
 2816
 \]
-
-local options.
-
-The completed search reached:
+neighbor-frame-\(E\)-closed local options and reached:
 
 \begin{itemize}
 
@@ -355,20 +389,10 @@ The completed search reached:
 
 \item \(175069\) unique four-step closure nogoods;
 
-\item repeated best candidates with
-\[
-1888
-\]
-failed flags out of
-\[
-1920;
-\]
+\item repeated best candidates with \(1888\) failed flags out of
+\(1920\);
 
-\item equivalently,
-\[
-32
-\]
-correctly closing flags;
+\item equivalently, \(32\) correctly closing flags;
 
 \item no complete global \(r_3\);
 
@@ -376,16 +400,13 @@ correctly closing flags;
 
 \end{itemize}
 
-The exact status is therefore
-
+The exact status is
 \[
 \text{deeper bounded partial closure}
 \]
-
 but not
-
 \[
-\text{global transport theorem}.
+\text{global inter-face transport theorem}.
 \]
 
 \subsection{Sigma boundary}
@@ -404,89 +425,44 @@ The unresolved inter-face sigma is not identified with:
 
 \item Thalean time;
 
+\item native relational loading;
+
+\item the retained-sector projector \(H\);
+
 \item or the normalized quadratic \(\widehat Q\).
 
 \end{itemize}
 
-An explicit structural crosswalk is required before any such
-identification.
-
-\subsection{Compatibility versus saturation}
-
-The following distinction is locked:
-
-\[
-\text{local inadmissibility}
-\neq
-\text{global incompatibility}
-\neq
-\text{relational saturation}.
-\]
-
-In particular,
-
-\[
-\text{failure to find global sigma}
-\]
-
-is not evidence for
-
-\[
-\text{saturation}.
-\]
-
-The saturation conjecture applies only after a globally compatible
-transport structure has been admitted.
+Any future identification requires an explicit structural crosswalk.
 
 \subsection{Finite summation ledger}
 
-Paper 14 uses three established forms of finite accumulation.
+Paper 14 uses several established forms of finite accumulation.
 
 \begin{center}
-\begin{tabular}{p{0.27\linewidth}p{0.32\linewidth}p{0.31\linewidth}}
+\begin{tabular}{p{0.22\textwidth} p{0.29\textwidth} p{0.37\textwidth}}
 \toprule
-Structure & Law & Domain \\
+Structure & Law & Domain\\
 \midrule
 
-incidence sum
-&
-\(
-x\mapsto MM^{\mathsf T}x
-\)
-&
-fifteen-sector real register
-\\
+incidence sum &
+\(x\mapsto MM^{\mathsf T}x\) &
+fifteen-sector real register\\
 
-binary regional sum
-&
-\(
-d\delta=\omega
-\)
-&
-twelve-section binary closure complex
-\\
+binary regional sum &
+\(d\delta=\omega\) &
+binary closure complex\\
 
-integer regional sum
-&
-\(
-d\eta=\Omega
-\)
-&
-integer refinement of closure complex
-\\
+integer regional sum &
+\(d\eta=\Omega\) &
+integer refinement\\
 
-history winding
-&
-\(
-\tau_{\mathrm T}(\gamma_2\circ\gamma_1)
+history winding &
+\(\tau_{\mathrm T}(\gamma_2\circ\gamma_1)
 =
-\tau_{\mathrm T}(\gamma_2)
-+
-\tau_{\mathrm T}(\gamma_1)
-\)
-&
-registered-history cycle complex
-\\
+\tau_{\mathrm T}(\gamma_2)+
+\tau_{\mathrm T}(\gamma_1)\) &
+registered-history cycles\\
 
 \bottomrule
 \end{tabular}
@@ -498,8 +474,10 @@ They are not one universal sum.
 
 \subsection{Clean-release status}
 
-The clean-release sequence
+Clean release and overcompression remain internal conditional
+concepts.
 
+The previously suggested sequence
 \[
 \text{organization}
 \to
@@ -509,55 +487,41 @@ The clean-release sequence
 \to
 \text{contrast saturation}
 \]
+is not a theorem of native loading.
 
-is an internal hypothesis.
+Native loading and quadratic contrast concentration are separately
+certified.
 
-The quadratic theorem proves only the contrast-concentrating direction.
-
-No theorem in Paper 14 proves:
-
-\begin{itemize}
-
-\item a unique clean-release optimum;
-
-\item a native loading parameter;
-
-\item a universal release statistic;
-
-\item or a physical emission mechanism.
-
-\end{itemize}
+No theorem yet specifies the dynamics that compose them into one
+cycle.
 
 \subsection{Empirical ledger}
 
-The existing WMAP \(C_3/\Xi\) experiment is retained with its frozen
-decision.
+The existing WMAP \(C_3/\Xi\) experiment retains its frozen decision.
 
 The exact empirical status is:
 
+\begin{itemize}
+
+\item all four primary cells in the predicted upper tail;
+
+\item three of four below \(p=0.05\);
+
+\item
 \[
-\text{all four primary cells in predicted upper tail},
+p_{W,\mathrm{Gaussian}}=0.0539461;
 \]
 
+\item therefore
 \[
-\text{three of four below }p=0.05,
+\text{NO-GO REPLICATION}.
 \]
 
-\[
-p_{\mathrm{W,Gaussian}}
-=
-0.0539461,
-\]
-
-and therefore
-
-\[
-\boxed{\text{NO-GO REPLICATION}}.
-\]
+\end{itemize}
 
 The experiment is not reinterpreted as a relational-saturation test.
 
-Any saturation experiment requires a new frozen protocol.
+Any physical saturation experiment requires a new frozen protocol.
 
 \subsection{Physical bridge status}
 
@@ -568,7 +532,7 @@ consequences:
 
 \item finite physical independent-distinction density;
 
-\item minimum four-support of order \(\ell_P^4\);
+\item minimum physical four-support of order \(\ell_P^4\);
 
 \item physical gravity;
 
@@ -595,51 +559,47 @@ consequences:
 \subsection{Explicitly rejected identifications}
 
 Paper 14 explicitly rejects the unsupported implications
-
 \[
 Q
 =
 \text{native temporal evolution},
 \]
-
+\[
+\widehat Q
+=
+\text{native relational loading},
+\]
 \[
 \widehat Q
 =
 \text{physical dynamics},
 \]
-
 \[
 \text{common mode}
 =
 \text{physical mass},
 \]
-
 \[
 \text{centered magnitude}
 =
 \text{physical information},
 \]
-
 \[
 \text{contrast concentration}
 =
 \text{gravity},
 \]
-
 \[
 \text{projection-relative saturation}
 =
 \text{event horizon},
 \]
-
 \[
 \text{finite saturation}
 =
 \text{singularity resolution},
 \]
-
 and
-
 \[
 \Xi
 =
@@ -648,7 +608,7 @@ and
 
 \subsection{Current theorem frontier}
 
-The final status of Paper 14 is:
+The final internal status of Paper 14 is:
 
 \[
 \text{quadratic incidence law}
@@ -663,21 +623,45 @@ The final status of Paper 14 is:
 \]
 
 \[
-\text{finite-stage non-erasure}
+\text{finite-stage quadratic non-erasure}
 \quad
 \text{proved},
 \]
 
 \[
-\text{projection-relative saturation}
+\text{native relational loading}
 \quad
-\text{defined},
+\text{proved},
 \]
 
 \[
-\text{native loading crosswalk}
+\text{registered-future saturation}
 \quad
-\text{open},
+\text{proved},
+\]
+
+\[
+\text{five-address projection-relative saturation}
+\quad
+\text{proved},
+\]
+
+\[
+\Delta^{\mathsf T}\Delta=\frac34H
+\quad
+\text{proved},
+\]
+
+\[
+\text{native loading contrast-antimonotonicity}
+\quad
+\text{proved},
+\]
+
+\[
+\text{native finite relational-saturation theorem}
+\quad
+\text{closed},
 \]
 
 \[
@@ -687,7 +671,7 @@ The final status of Paper 14 is:
 \]
 
 \[
-\text{native relational-saturation theorem}
+\text{clean-release composition law}
 \quad
 \text{open},
 \]
@@ -700,11 +684,11 @@ The final status of Paper 14 is:
 
 \subsection{Final keeper}
 
-The theorem frontier can be stated in one sentence:
+The theorem frontier can now be stated in one sentence:
 
 \begin{quote}
-Paper 14 proves how a finite linear register can lose relative
-individuation without finite-stage state merger; the remaining problem
-is to prove that an admitted native Thalean transport actually enters
-that regime while retained complete history remains nontrivial.
+Selection sharpens a lawful future, contextual transport retains
+distinction behind registration, and quadratic aggregation can
+independently suppress registered contrast without erasing the
+retained state.
 \end{quote}

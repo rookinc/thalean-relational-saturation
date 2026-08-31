@@ -1,248 +1,310 @@
 # Paper 14
 
-## Working title
+## Title
 
-The Thalean Relational Saturation Conjecture
+Contrast Concentration and Thalean Relational Saturation
 
 ## Subtitle
 
-Contrast Concentration, Projection Loss, and Retained History on AT4val[60,6]
+Native Loading, Retained Distinction, and a Finite Theorem on L(Petersen)
 
-## Reserved DOI
+## DOI
 
 10.5281/zenodo.22210911
 
-## Purpose
+## Status
 
-This paper isolates the exact finite mathematics beneath the Thalean
-Relational Saturation Conjecture.
-
-Its theorem-side goal is to prove that the Thalean quadratic produces
-common-mode concentration relative to centered relational contrast.
-
-Its conjectural goal is to formulate the additional native-loading
-hypothesis required to interpret that concentration as relational
+Paper 14 now establishes a native finite theorem of Thalean relational
 saturation.
 
-The paper does not derive physical gravity, black holes, horizons,
-singularity avoidance, Planck-scale information density, or a CMB
-mechanism.
+The theorem is internal to the certified finite registered-action
+system.
 
-## Established imported substrate
+The physical bridge remains open.
 
-The paper imports the following proved finite structures.
+## Central result
 
-1. The quotient core
+The finite architecture separates three exact operations:
 
-   G15 ~= L(Petersen).
+1. native selection;
+2. contextual retention;
+3. quadratic contrast concentration.
 
-2. The sector-edge incidence matrix
+They are related, but they are not the same operation.
 
-   M in {0,1}^{15 x 30}.
+The core native loading law is
 
-3. The Thalean quadratic
+    |C| : 8 -> 2 -> 1
 
-   Q = M M^T = A^3 + 2 A^2 + 2 I.
+where C(p) is the lawful completion family of a live registered prefix
+p.
 
-4. The spectrum
+Registered-future saturation occurs when
 
-   spec(A) = {-2^(5), -1^(4), 2^(5), 4^(1)}
+    |C(p)| = 1.
 
-   and therefore
+A unique lawful future does not imply a unique complete relational
+state.
 
-   spec(Q) = {2^(5), 3^(4), 18^(5), 98^(1)}.
+At the two-edge saturation threshold there remain 120 distinct live
+contexts with 120 distinct registered completions.
 
-5. The separation
+The terminal completion register also retains two native holonomy
+designations above each of the 15 closing chambers.
 
-   quotient-visible incidence != lifted holonomy data.
+## Retained-sector theorem
 
-6. Exact examples in which projected return occurs before complete
-   registered return.
+Native designation is absent from a bare unresolved chamber.
 
-7. Registered history as retained finite information erased by a
-   declared projection.
+After one admitted carrier step, contextual structure is created and
+designation becomes operational.
 
-8. Thalean time as the additive oriented winding
+Let Delta be the resulting context-activated designation response.
 
-   tau_T = wind_{r1}
-
-   on the certified registered-history cycle complex.
-
-9. Centered relational magnitude
-
-   R_n(h) = ||h - mean(h) 1_n||_2.
-
-## Canonical common-mode decomposition
-
-Let
-
-P_0 = J / 15
-
-be the orthogonal projection onto the all-ones line, and let
-
-P_perp = I - P_0
-
-be the projection onto the centered zero-sum subspace.
-
-For x in R^15 define
-
-C(x) = ||P_0 x||_2
-
-and
-
-R(x) = ||P_perp x||_2.
+Let H be the exact ten-dimensional five-address-hidden projector.
 
 Then
 
-x = P_0 x + P_perp x
-
-is the canonical orthogonal decomposition into common aggregate and
-centered relational contrast.
-
-## Central theorem target
-
-Thalean Quadratic Contrast-Concentration Theorem.
-
-For every integer k >= 0 and every x in R^15,
-
-C(Q^k x) = 98^k C(x)
+    Delta^T Delta = Delta Delta^T = (3/4) H
 
 and
 
-R(Q^k x) <= 18^k R(x).
+    rho Delta = 0.
 
-Therefore, whenever C(x) != 0,
+Thus the native response is nontrivial in the complete registered
+system while invisible to the declared five-address readout.
 
-R(Q^k x) / C(Q^k x)
-    <= (18 / 98)^k R(x) / C(x)
-    = (9 / 49)^k R(x) / C(x).
+This is the exact retained-distinction mechanism behind native
+projection-relative saturation.
 
-Thus iterated algebraic aggregation by Q causes centered relational
-contrast to become exponentially small relative to the common
-aggregate.
+## Native loading sharpens the selected future
 
-Because every eigenvalue of Q is nonzero, Q is invertible. Hence
+Native relational loading is not common-mode contrast concentration.
 
-x != y implies Q^k x != Q^k y.
+For the canonical uniform completion-occupancy register,
 
-The complete linear state does not merge even while its normalized
-registered contrast becomes increasingly common-mode dominated.
+    zeta:
+    31/55 -> 41/65 -> 7/10
 
-## Dimensionless contrast fraction
+and
 
-For a nonzero declared register h define
+    rho^2:
+    31/24 -> 41/24 -> 7/3.
 
-zeta(h) = R_n(h)^2 / ||h||_2^2.
+The common component remains fixed:
 
-Then
+    C^2 = 12/5.
 
-0 <= zeta(h) <= 1.
+All 60 strict 8 -> 2 loading extensions increase both contrast
+statistics.
 
-The condition zeta(h) = 0 holds exactly when h is pure common mode.
+All 120 strict 2 -> 1 loading extensions increase them.
 
-Relative contrast concentration means that zeta decreases even when
-the unnormalized register magnitude does not.
+There are no exceptions.
 
-This distinction is essential. Saturation is not defined as simple
-decrease of total norm.
+Therefore native loading is contrast-antimonotone relative to the
+normalized Thalean quadratic.
+
+Keeper:
+
+    Native loading sharpens the selected future; it does not perform
+    the common-mode contrast concentration of the Thalean quadratic.
+
+## Thalean quadratic
+
+The paper retains the established sector-edge incidence system
+
+    M in {0,1}^{15 x 30}
+
+with
+
+    Q = M M^T = A^3 + 2 A^2 + 2 I.
+
+The adjacency spectrum is
+
+    spec(A) = {-2^(5), -1^(4), 2^(5), 4^(1)}
+
+and therefore
+
+    spec(Q) = {2^(5), 3^(4), 18^(5), 98^(1)}.
+
+The common-mode eigenvalue is 98.
+
+The centered eigenvalues are 18, 3, and 2.
+
+Define
+
+    Qhat = Q / 98.
+
+Then Qhat fixes the common mode and contracts every centered
+eigendirection.
+
+The sharp centered contraction factor is
+
+    18/98 = 9/49.
+
+For every k >= 0,
+
+    R(Qhat^k x) <= (9/49)^k R(x).
+
+Also,
+
+    Qhat^k -> P0
+
+in Euclidean operator norm.
+
+Every finite iterate remains invertible.
+
+Thus centered registered contrast may become arbitrarily small while
+exact finite-stage linear distinction remains nonzero.
+
+## Native loading is not Qhat iteration
+
+The upgraded theorem explicitly rejects
+
+    native relational loading = Qhat iteration.
+
+Native loading contracts lawful future freedom:
+
+    8 -> 2 -> 1.
+
+Qhat contracts centered contrast toward common mode.
+
+These are distinct finite operations.
+
+Their relationship is algebraic rather than identificatory.
+
+## Transport-response algebra crosswalk
+
+The native loading response and the centered Thalean quadratic occupy
+the same exact three-dimensional centered transport-response algebra.
+
+For certified centered response classes R0, R1, R2,
+
+    Delta^T Delta
+        = (1/48) R0
+        - (1/16) R1
+        + (1/32) R2.
+
+The centered Thalean quadratic satisfies
+
+    P Q P
+        = (139/90) R0
+        - (28/15) R1
+        + (19/60) R2.
+
+The operators are not proportional.
+
+Therefore
+
+    native selection != quadratic concentration.
+
+The exact connection is that both are realized inside the same
+certified finite response algebra.
+
+## Two theorem-level saturation notions
+
+Paper 14 now distinguishes two exact notions.
+
+### Registered-future saturation
+
+A native prefix is saturated when
+
+    |C(p)| = 1.
+
+This means lawful future freedom has become unique.
+
+It does not mean complete relational distinction has disappeared.
+
+### Contrast saturation
+
+A declared register is contrast-saturating when centered contrast
+approaches a stable minimum while the complete state remains nontrivial.
+
+Normalized quadratic aggregation gives
+
+    zeta(Qhat^k x) -> 0
+
+for states with nonzero common component.
+
+Therefore
+
+    registered-future saturation != contrast saturation.
+
+The first is finite selection.
+
+The second is finite contrast concentration.
 
 ## Projection-relative saturation
 
 Let
 
-pi : X -> Y
+    pi : X -> Y
 
-be a declared finite projection.
+be a declared projection.
 
-A complete distinction is a distinction between states in X.
+Distinct complete states x and x' are projection-degenerate when
 
-A projected distinction is one that remains distinguishable in Y.
+    x != x'
 
-A registration datum is finite information retained in X but not
-determined by pi(x).
+but
 
-Projection-relative saturation is a regime in which:
+    pi(x) = pi(x').
 
-1. complete distinctions remain nontrivial;
-2. the declared projected or scalar readout loses relative contrast;
-3. additional relational loading no longer creates additional
-   independently registered contrast;
-4. the aggregate becomes increasingly common-mode dominated;
-5. retained receipts, lifted data, or history winding may remain
-   nontrivial.
+The complete distinction remains present in X while the declared
+projection fails to resolve it.
 
-Saturation is always stated relative to a declared projection or
-readout. It is not an absolute disappearance of information.
+The native five-address registration gives an exact example.
 
-## Working conjecture
+The centered 15-dimensional register decomposes into:
 
-Thalean Relational Saturation Conjecture.
+    visible fiber-constant sector: dimension 4
 
-Given a globally compatible finite linear admissible transport
-structure, a declared projection or registration, a finite additive
-aggregation law, and finite independent distinction capacity,
-increasing relational loading can strengthen the coherent aggregate
-of bounded admissible contributions while reducing their independent
-registered contrast.
+and
 
-Beyond a critical regime, additional loading is expressed through
-increasing dependency, common-mode concentration, and
-projection-relative degeneracy rather than unbounded growth of
-independent local distinction.
+    hidden fiber-internal sector: dimension 10.
 
-Complete distinctions may remain preserved by the finite transport
-while the declared registration no longer resolves them independently.
+The projector H selects the retained hidden sector.
 
-## Exact theorem versus conjectural extension
+The native response satisfies
 
-The following statement is theorem-side:
+    Delta^T Delta = (3/4) H
 
-Q has one common-mode eigenvalue 98 and non-common eigenvalues bounded
-above by 18, producing the contrast-concentration inequality.
+and
 
-The following statement remains conjectural:
+    rho Delta = 0.
 
-A native admitted Thalean loading sequence realizes Q iteration, a
-normalized Q-type aggregation, or another certified operator with the
-same common-mode concentration property.
+Thus registration can lose resolving power while complete relational
+distinction survives.
 
-The algebraic inequality must not be described as native dynamics
-until that crosswalk is proved.
+## Internal relational-saturation theorem
 
-## Three distinct forms of finite summation
+The native finite relational-saturation theorem is closed.
 
-The paper must keep the following sums separate.
+Exact theorem keeper:
 
-1. Incidence accumulation
+    |C| : 8 -> 2 -> 1
 
-   x -> M^T x -> M M^T x = Qx.
+    Delta^T Delta = (3/4) H
 
-2. Cohomological regional composition
+    rho Delta = 0.
 
-   Interior edge contributions cancel and the regional charge reduces
-   to a boundary sum.
+Interpretation:
 
-3. Registered-history winding
+    Relational saturation is reached when admissible future freedom
+    becomes unique while complete relational distinction remains
+    retained behind registration.
 
-   tau_T(gamma_2 o gamma_1)
-       = tau_T(gamma_2) + tau_T(gamma_1).
+## Global compatibility and sigma
 
-These are related examples of lawful finite accumulation. They act on
-different objects and are not identified without an explicit
-crosswalk.
+The Project 41 inter-face sigma remains a separate open problem.
 
-## Global compatibility prerequisite
+It concerns a stronger global seam-transport construction.
 
-The conjecture presupposes globally compatible transport.
-
-Local admissibility does not imply global closure.
-
-The unresolved Project 41 inter-face sigma is the globally selected
-seam transport relation whose circulation may eventually support an
-additional winding construction.
+It is not a missing premise of the native finite saturation theorem.
 
 The completed Mac search used the canonically completed 2,816-option
-E-closed seam vocabulary. It reached:
+E-closed seam vocabulary and reached:
 
 - 376 total solver iterations;
 - 175,069 unique four-step closure nogoods;
@@ -250,113 +312,223 @@ E-closed seam vocabulary. It reached:
 - no complete global r3;
 - no proof that the completed search space is infeasible.
 
-These results sharpen the global compatibility frontier. They are not
-evidence for relational saturation.
+The exact status is:
 
-Compatibility failure is not saturation.
+    deeper bounded partial closure
 
-Before anything can saturate globally, the local transport must first
-close globally.
+but not
 
-No identification is made between unresolved sigma circulation and:
+    global inter-face transport theorem.
+
+The following distinction is locked:
+
+    local inadmissibility
+    != global incompatibility
+    != relational saturation.
+
+Failure to find a global sigma is not evidence for saturation.
+
+Conversely, an unresolved sigma construction does not reopen the
+already certified native finite saturation theorem.
+
+No identification is made between sigma and:
 
 - the signed G30 -> G15 cocycle;
-- the X12 binary closure cocycle;
+- the twelve-section binary closure class;
 - either integer parent;
 - the certified r1 registered-history cycle;
-- or Thalean time.
+- Thalean time;
+- native relational loading;
+- the hidden projector H;
+- or Qhat.
 
-## Retained distinction criterion
+## Three forms of finite accumulation
 
-A convincing internal saturation theorem should combine three
-properties:
+Paper 14 keeps the following exact finite sums distinct.
 
-1. aggregate dominance;
-2. registered contrast suppression;
-3. retained complete distinction.
+### Incidence accumulation
 
-The existing finite mechanics already supplies exact retained
-distinction examples through covers, deck receipts, integer
-refinements, projected-versus-complete recurrence, and registered
-history.
+    x -> M^T x -> M M^T x = Qx.
 
-The missing crosswalk is a native admitted loading law that drives a
-declared register into the contrast-concentrated regime while one of
-those richer distinctions remains nontrivial.
+### Regional cochain composition
+
+    d delta = omega
+
+and, for integer refinement,
+
+    d eta = Omega.
+
+### Registered-history winding
+
+    tau_T(gamma_2 o gamma_1)
+        = tau_T(gamma_2)
+        + tau_T(gamma_1).
+
+These are related examples of lawful finite accumulation.
+
+They act on different mathematical objects and are not identified
+without an explicit crosswalk.
+
+## Clean release and overcompression
+
+Clean release and overcompression remain internal conditional concepts.
+
+The paper does not prove a single monotone process
+
+    loading -> contrast collapse.
+
+The native theorem proves future selection.
+
+The quadratic theorem proves contrast concentration.
+
+A larger composed dynamics might contain
+
+    native selection
+    -> coherent registration
+    -> clean release
+    -> contrast-concentrating stage
+    -> overcompression
+    -> contrast saturation.
+
+But no theorem yet specifies the dynamics that compose native
+selection and quadratic concentration into such a cycle.
+
+Therefore clean release and overcompression remain open internal
+mechanical extensions.
+
+## Empirical boundary
+
+The frozen G60 C3 detector remains a methodological precedent for
+testing finite registered structure.
+
+The WMAP cross-instrument replication retained its frozen result:
+
+- all four primary cells in the predicted upper-tail direction;
+- three of four below p = 0.05;
+- p_W,Gaussian = 0.0539461;
+- formal decision: NO-GO REPLICATION.
+
+The experiment is not reinterpreted as a relational-saturation test.
+
+Any future physical saturation experiment requires a new frozen
+observable and decision contract.
+
+A future test must specify whether it is testing:
+
+- native future selection;
+- quadratic contrast concentration;
+- or an explicitly proposed composition of the two.
+
+These operations may not be treated as one undifferentiated loading
+variable.
 
 ## Physical firewall
 
 Layer I contains established finite mathematics.
 
-Layer II contains projection-relative saturation, contrast fraction,
-clean release, registration closure, and the broader conjecture.
+This includes:
 
-Layer III contains all proposed physical interpretations.
+- the graph and quotient hierarchy;
+- the Thalean quadratic;
+- native registered transport;
+- native relational loading;
+- registered-future saturation;
+- retained projection-relative distinction;
+- Thalean time;
+- quadratic contrast concentration.
 
-This paper does not establish:
+Layer II contains conditional internal extensions.
+
+This includes:
+
+- clean release;
+- overcompression;
+- stronger global inter-face transport;
+- any composed selection/concentration cycle;
+- any universal finite information-capacity law.
+
+Layer III contains physical bridge hypotheses.
+
+Paper 14 does not establish:
 
 - physical information density;
 - one distinction per Planck four-volume;
 - physical gravity;
-- Newtonian or relativistic gravity;
-- a black-hole interior;
-- an event horizon;
+- Newtonian gravity;
+- general relativity;
+- the equivalence principle;
+- physical spacetime;
+- black-hole interiors;
+- physical event horizons;
 - singularity avoidance;
 - black-hole entropy;
 - holography;
 - Hawking radiation;
-- a physical CMB registration mechanism;
-- proper time;
+- a physical CMB saturation mechanism;
+- physical proper time;
 - physical action;
-- energy, force, or spacetime.
+- energy or force;
+- or Standard Model correspondence.
 
 No physical noun promotes an internal definition.
 
-## Empirical boundary
-
-The frozen G60 C3 detector demonstrates that a finite registered
-phase structure can be mapped to a bounded scalar and tested under a
-preregistered protocol.
-
-The WMAP cross-instrument replication was formally NO-GO.
-
-Its directional upper-tail concordance may motivate a new experiment,
-but it is not evidence for relational saturation and may not be
-reinterpreted after the fact as a saturation detector.
-
-## Proposed paper structure
+## Paper structure
 
 1. Introduction
-2. Scope, provenance, and theorem boundary
-3. Finite projections and retained distinctions
-4. The Thalean quadratic
-5. Common-mode and centered decomposition
-6. The contrast-concentration theorem
-7. Invertibility and non-erasure
-8. Projection-relative saturation
-9. Registered history and retained receipts
-10. Finite sums and lawful accumulation
-11. Global compatibility and the inter-face sigma frontier
-12. The Thalean Relational Saturation Conjecture
-13. Clean release and overcompression as internal hypotheses
-14. Empirical falsifiability contract
-15. Physical bridge exclusions
-16. Discussion
-17. Conclusion
-18. Reproducibility and theorem ledger
+2. Scope and Imported Finite Structure
+3. Projection and Retained Distinction
+4. The Thalean Quadratic
+5. Common Mode and Centered Relational Contrast
+6. The Contrast-Concentration Theorem
+7. Invertibility and Non-Erasure
+8. Projection-Relative Saturation
+9. Three Finite Summation Laws
+10. Global Compatibility and the Inter-Face Sigma Frontier
+11. Clean Release and Overcompression
+12. Empirical Falsification Boundary
+13. Physical Bridge Boundary
+14. Discussion
+15. Conclusion
+16. Theorem and Provenance Ledger
+
+## Current theorem frontier
+
+Closed:
+
+- quadratic incidence law;
+- contrast concentration;
+- finite-stage quadratic non-erasure;
+- native relational loading;
+- registered-future saturation;
+- five-address projection-relative saturation;
+- context activation;
+- retained-sector theorem;
+- native loading contrast-antimonotonicity;
+- native finite relational-saturation theorem.
+
+Open:
+
+- global inter-face sigma;
+- clean-release composition law;
+- universal physical information-capacity law;
+- physical saturation bridge.
 
 ## Keeper statements
 
-Strong aggregate does not imply strong individuation.
+Native loading sharpens the selected future; it does not perform the
+common-mode contrast concentration of the Thalean quadratic.
 
-Projection can erase contrast without erasing complete distinction.
+Relational saturation is reached when admissible future freedom
+becomes unique while complete relational distinction remains retained
+behind registration.
 
-Maximal compression is relational degeneracy, not ontological merger.
+Selection sharpens a lawful future.
 
-Before anything can saturate globally, local transport must first
-close globally.
+Contextual transport retains distinction behind registration.
 
-The Mac work tells us more precisely what would have to saturate. It
-does not tell us that saturation occurs physically.
+Quadratic aggregation can independently suppress registered contrast
+without erasing the retained state.
+
+Compatibility failure is not saturation.
 
 Do not protect the idea. Make the idea protect itself.

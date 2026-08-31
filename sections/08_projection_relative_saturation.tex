@@ -24,7 +24,7 @@ q(x)=q(x').
 \]
 
 The second relation does not imply that the complete states have
-merged. It says only that the declared projection no longer resolves
+merged.  It says only that the declared projection no longer resolves
 their difference.
 
 \begin{definition}[Projection-relative degeneracy]
@@ -53,7 +53,7 @@ q(\mathcal X)\subseteq Y.
 \]
 
 When the relevant notion of independence is cardinal, the number of
-projected distinction classes is simply
+projected distinction classes is
 \[
 K_q(\mathcal X)
 =
@@ -67,49 +67,185 @@ r_q(\mathcal X)
 \]
 for the independent distinction rank that survives the projection.
 
-No universal rank function is assumed in this paper.
+No universal rank function is assumed.
 
 The choice must be stated for the particular register being studied.
 
-\subsection{Projection-relative saturation}
+\subsection{Native relational loading}
 
-\begin{definition}[Projection-relative saturation]
-Let
+The registered carrier language supplies a native loading order
+without introducing an external scalar parameter.
+
+Let \(p\) be a live registered prefix and define
 \[
-\{x_\lambda\}_{\lambda\in\Lambda}
+\mathcal C(p)
 \]
-be a declared loading family of complete states or admitted histories,
-and let
+to be the set of accepted complete registered words extending \(p\).
+
+If \(p'\) extends \(p\), then
 \[
-q:X\longrightarrow Y
+\mathcal C(p')\subseteq\mathcal C(p).
 \]
-be a declared projection or registration.
 
-The family enters a projection-relative saturation regime when:
-
-\begin{enumerate}[label=(\roman*)]
-\item complete distinction remains nontrivial;
-
-\item the independent distinction visible through \(q\) is bounded;
-
-\item increasing loading ceases to produce corresponding growth of
-independently resolved projected distinction;
-
-\item additional complete variation is therefore increasingly carried
-inside fibres of \(q\), retained receipts, lifted structure, or other
-higher-resolution data.
-\end{enumerate}
+\begin{definition}[Native relational loading]
+Native relational loading is the accumulation of admitted relational
+constraint under prefix extension, ordered by reverse inclusion of
+the lawful completion family
+\[
+\mathcal C(p).
+\]
 \end{definition}
 
-Saturation is therefore not defined as disappearance of the complete
-state.
+For the certified carrier language,
+\[
+|\mathcal C(p)|
+:
+8\longrightarrow2\longrightarrow1
+\longrightarrow1\longrightarrow1.
+\]
 
-It is a statement about the relationship between complete variation
-and the resolving capacity of a declared registration.
+The first admitted directed edge reduces eight lawful registered
+futures to two.
 
-\subsection{Contrast saturation on the sector register}
+The second reduces two to one.
 
-For the fifteen-sector real register, Paper 14 defines
+Later admitted extension propagates the already unique completion.
+
+\subsection{Registered-future saturation}
+
+\begin{definition}[Registered-future saturation]
+A live prefix \(p\) is registered-future saturated when
+\[
+|\mathcal C(p)|=1.
+\]
+\end{definition}
+
+This is an exact finite notion.
+
+It does not mean that the complete relational state has become
+unique.
+
+At the two-edge threshold there are \(120\) distinct live contexts
+and \(120\) distinct registered completed words.
+
+Thus
+\[
+\text{unique lawful future}
+\neq
+\text{unique complete context}.
+\]
+
+The terminal completion register retains further structure: above
+each of the \(15\) closing chambers there remain two native holonomy
+designations.
+
+Therefore native saturation is a loss of future freedom, not an
+erasure of complete relational distinction.
+
+\begin{theorem}[Native finite relational saturation]
+Within the certified registered carrier language, admissible prefix
+extension monotonically contracts the lawful completion family as
+\[
+8\longrightarrow2\longrightarrow1.
+\]
+Registered-future saturation occurs after two directed edges.
+Complete relational distinction remains nontrivial at that threshold
+and in the terminal completion register.
+\end{theorem}
+
+\subsection{Five-address projection-relative saturation}
+
+The native five-address registration gives a second exact form of
+projection-relative saturation.
+
+Let
+\[
+\rho:\mathbb R^{15}\longrightarrow\mathbb R^5
+\]
+sum the three sector coordinates belonging to each native
+five-address fibre.
+
+The centered fifteen-dimensional register decomposes into a
+four-dimensional fibre-constant visible sector and a ten-dimensional
+fibre-internal hidden sector.
+
+Let
+\[
+H
+\]
+denote the projector onto that ten-dimensional retained sector.
+
+Distinct centered states can therefore have the same five-address
+readout while remaining distinct in the complete fifteen-state
+register.
+
+This is exact projection-relative saturation:
+registration loses resolving power while complete distinction
+survives.
+
+\subsection{Context activation and retained distinction}
+
+The native designation mechanism identifies the retained sector
+exactly.
+
+Let \(T_b\) and \(T_{ab}\) be the two registered designated
+successor maps on the sixty directed-edge contextual states and set
+\[
+D:=T_b-T_{ab}.
+\]
+
+Let \(S\) uniformly lift a bare chamber state to its four unresolved
+incoming-edge contexts.
+
+At stage zero,
+\[
+DS=0.
+\]
+Designation is absent from a bare unresolved chamber.
+
+After one admitted carrier step, contextual structure is generated.
+The \(b/ab\) designation then becomes operational and changes the
+second-step chamber readout.
+
+Let
+\[
+\Delta
+\]
+denote the resulting context-activated designation response on
+\(\mathbb R^{15}\).
+
+Then
+\[
+\operatorname{rank}(\Delta)=10
+\]
+and
+\[
+\Delta^{\mathsf T}\Delta
+=
+\Delta\Delta^{\mathsf T}
+=
+\frac34H.
+\]
+
+Moreover,
+\[
+H\Delta=\Delta,
+\qquad
+\Delta H=\Delta,
+\]
+while
+\[
+\rho\Delta=0.
+\]
+
+Thus the response is entirely supported on the retained
+five-address-hidden sector.
+
+The coarse five-address registration sees none of it.
+
+\subsection{Contrast saturation is a distinct operation}
+
+Paper 14 also defines the sector contrast fraction
 \[
 \zetaRel(x)
 =
@@ -118,66 +254,56 @@ For the fifteen-sector real register, Paper 14 defines
 x\neq0.
 \]
 
-This dimensionless quantity measures the fraction of register
-magnitude carried by centered relational contrast.
+A sequence is contrast-saturating when this quantity approaches a
+stable minimum while the corresponding complete state sequence
+remains nontrivial.
 
-\begin{definition}[Contrast-saturating sequence]
-A sequence of nonzero registered states
+For normalized quadratic aggregation,
 \[
-x_0,x_1,x_2,\ldots
+\widehat Q=\frac1{98}Q,
 \]
-is contrast-saturating when
-\[
-\zetaRel(x_k)
-\]
-approaches a stable minimum while the corresponding complete state
-sequence remains nontrivial.
-\end{definition}
-
-For normalized quadratic aggregation, if
-\[
-\Pzero x\neq0,
-\]
-the contrast-concentration theorem gives
-\[
-\zetaRel(\widehat Q^{\,k}x)
-\longrightarrow0.
-\]
-
-Thus \(\widehat Q\)-iteration supplies an exact algebraic example of
-complete common-mode concentration.
-
-\begin{corollary}[Asymptotic contrast saturation]
-If
+if
 \[
 \Pzero x\neq0,
 \]
 then
 \[
-\lim_{k\to\infty}
-\zetaRel(\widehat Q^{\,k}x)
-=
-0.
-\]
-For every finite \(k\), however,
-\[
-\widehat Q^{\,k}
-\]
-remains invertible.
-\end{corollary}
-
-Hence the same finite sequence exhibits
-\[
-\text{relative registered contrast}\longrightarrow0
-\]
-while
-\[
-\text{exact finite-stage distinction remains recoverable}.
+\zetaRel(\widehat Q^{\,k}x)\longrightarrow0.
 \]
 
-This is the exact algebraic core motivating the saturation language.
+Thus \(\widehat Q\)-iteration supplies an exact algebraic example of
+contrast saturation.
 
-\subsection{Finite-resolution saturation}
+But this is not the native loading operation.
+
+Under the canonical completion-occupancy register, the native
+\(8\to2\to1\) loading sequence has the exact stage values
+\[
+\zeta:
+\frac{31}{55}
+\longrightarrow
+\frac{41}{65}
+\longrightarrow
+\frac{7}{10}.
+\]
+
+Every strict native loading extension increases contrast.
+
+Therefore
+\[
+\text{native future saturation}
+\neq
+\text{contrast saturation}.
+\]
+
+Native loading sharpens a selected future.
+
+Normalized quadratic aggregation suppresses centered contrast relative
+to common mode.
+
+Both are theorem-level finite operations, but they are distinct.
+
+\subsection{Finite-resolution contrast saturation}
 
 Exact arithmetic is not the only possible declared registration.
 
@@ -189,20 +315,17 @@ be a fixed resolution threshold, and let
 \[
 d=x-y
 \]
-be a nonzero centered distinction:
-\[
-d\in\one_{15}^{\perp}.
-\]
+be a nonzero centered distinction.
 
 The contrast-concentration theorem gives
 \[
 \|\widehat Q^{\,k}d\|_2
 \le
-\left(\frac{9}{49}\right)^k
+\left(\frac9{49}\right)^k
 \|d\|_2.
 \]
 
-Therefore, for every fixed \(\varepsilon>0\), there exists a finite
+Therefore for every fixed \(\varepsilon>0\), there exists a finite
 \(k_\varepsilon\) such that
 \[
 0<
@@ -218,20 +341,20 @@ k\ge k_\varepsilon.
 The distinction remains mathematically nonzero, but a registration
 with resolution \(\varepsilon\) no longer distinguishes it.
 
-We call this
+This is
 \emph{effective registration degeneracy}.
 
-It must remain distinct from exact equality.
+It remains distinct from exact equality.
 
 \subsection{Saturation is not global incompatibility}
 
-The conjecture presupposes an admitted globally compatible transport
-structure.
+Relational saturation is defined on an admitted finite carrier or
+registered-action system.
 
-Failure of locally admissible choices to assemble into a globally
-closed transport relation is a different phenomenon.
+It does not require that every stronger proposed transport extension
+already be globally closed.
 
-We therefore distinguish:
+We distinguish:
 
 \begin{description}
 
@@ -240,35 +363,47 @@ A proposed local transition is not contained in the admitted local
 transport vocabulary.
 
 \item[Global incompatibility.]
-Locally admissible transitions cannot be assembled into a globally
-closed transport assignment satisfying the declared compatibility
-conditions.
+A specified family of locally admissible transitions cannot be
+assembled into a stronger globally closed transport assignment under
+its declared compatibility conditions.
 
 \item[Relational saturation.]
-A globally admitted construction retains complete distinctions while
-a declared registration ceases gaining independent resolving power.
+Within an already admitted finite carrier or registration, lawful
+future freedom or projected resolving power saturates while complete
+relational distinction remains nontrivial.
 
 \end{description}
 
 The third must never be inferred from the second.
 
+Conversely, an unresolved stronger global construction does not reopen
+a saturation theorem already proved on a separately certified admitted
+carrier.
+
 \subsection{Boundary}
 
-The exact result of this section is a definition plus a proved
-algebraic example.
+The exact finite theorem now contains two distinct saturation notions.
 
-Normalized \(Q\)-iteration is contrast-saturating relative to the
-centered sector readout.
-
-What remains unproved is that a native admitted Thalean loading law
-realizes this sequence or an equivalent contrast-concentrating family.
-
-Accordingly,
+Native registered-future saturation is certified by
 \[
-\text{contrast saturation under }\widehat Q
+8\longrightarrow2\longrightarrow1
 \]
-is theorem-side, while
+with complete contextual distinction retained.
+
+Quadratic contrast saturation is certified by
 \[
-\text{native relational saturation}
+\zetaRel(\widehat Q^{\,k}x)\longrightarrow0
 \]
-remains conjectural.
+for states with nonzero common component, while every finite iterate
+remains invertible.
+
+These notions are related through the finite response algebra and the
+retained-sector identity
+\[
+\Delta^{\mathsf T}\Delta=\frac34H.
+\]
+
+They are not the same process.
+
+No physical interpretation follows without an additional physical
+bridge.
