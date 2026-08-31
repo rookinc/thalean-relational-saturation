@@ -7,7 +7,7 @@ institution: Center of Recursive Inquiry (CoRI)
 location: Matsqui Territory - Abbotsford, British Columbia, Canada
 orcid: 0009-0000-0888-4232
 status: working draft
-doi: 10.5281/zenodo.22210907
+doi: 10.5281/zenodo.22210911
 primary_theorem: Thalean Quadratic Contrast-Concentration Theorem
 primary_conjecture: Thalean Relational Saturation Conjecture
 physical_claim: false

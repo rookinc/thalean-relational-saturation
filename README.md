@@ -10,7 +10,7 @@ Contrast Concentration, Projection Loss, and Retained History on AT4val[60,6]
 
 ## Reserved DOI
 
-10.5281/zenodo.22210907
+10.5281/zenodo.22210911
 
 ## Purpose
 
